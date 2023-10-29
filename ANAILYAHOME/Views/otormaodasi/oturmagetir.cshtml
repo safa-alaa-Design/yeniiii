@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "oturmagetir";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+@model ANAILYAHOME.models.oturmaEkleModels
+
+
+
+
+@using (Html.BeginForm("oturmaguncele", "otormaodasi", FormMethod.Post))
+{
+   @* @Html.LabelFor(p =>p.id)
+    @Html.TextBoxFor(p=>p.id, new {@class ="form-control"})*@
+    
+    @Html.LabelFor(p =>p.urunAdı)
+    @Html.TextBoxFor(p=>p.urunAdı, new {@class ="form-control"})
+    <br/>
+    @Html.LabelFor(p =>p.urunKod)
+    @Html.TextBoxFor(p=>p.urunKod, new {@class ="form-control"})
+    <br />
+
+    @Html.LabelFor(p=>p.ahsapTipi)
+    @Html.TextBoxFor(p=>p.ahsapTipi, new {@class ="form-control"})
+
+    <br />
+
+    @Html.LabelFor(p =>p.sungurTipi)
+    @Html.TextBoxFor(p=>p.sungurTipi, new {@class ="form-control"})
+    <br />
+
+    @Html.LabelFor(p =>p.tanım)
+    @Html.TextBoxFor(p=>p.tanım, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(p=>p.YatakOlmak)
+    @Html.TextBoxFor(p=>p.YatakOlmak, new {@class ="form-control"})
+    <br />
+
+    <button class="btn btn-success">Oturma Odası Güncele</button>
+
+
+}
+

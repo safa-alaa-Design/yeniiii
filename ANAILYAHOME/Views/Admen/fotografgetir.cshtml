@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "fotografgetir";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+
+
+
+@model ANAILYAHOME.entityes.FotoEntity
+
+
+
+
+
+
+<h2>Fotograf Cüncele</h2>
+<br />
+
+@using (Html.BeginForm("fotografguncele", "Admen", FormMethod.Post))
+{
+    @Html.LabelFor(p =>p.id)
+    @Html.TextBoxFor(p=>p.id, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(p =>p.foto)
+    @Html.TextBoxFor(p=>p.foto, new {@class ="form-control"})
+    <br />
+
+    <button class="btn btn-success">Fotograf Güncele</button>
+
+}
+

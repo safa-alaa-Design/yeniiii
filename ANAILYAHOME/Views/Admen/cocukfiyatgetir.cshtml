@@ -1,0 +1,33 @@
+﻿@model ANAILYAHOME.entityes.cocukfiyatler
+
+@{
+    ViewData["Title"] = "cocukfiyatgetir";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+
+
+@using (Html.BeginForm("cocukfiyatguncele", "Admen", FormMethod.Post))
+{
+    <h2 style="font-weight:700;margin-top:-50px;padding-bottom:15px"> Fıyat Güncele</h2>
+
+    @Html.LabelFor(x =>x.id)
+    @Html.TextBoxFor(x=>x.id, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(x =>x.yataş)
+    @Html.TextBoxFor(x=>x.yataş, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(x =>x.calismamasasi)
+    @Html.TextBoxFor(x=>x.calismamasasi, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(x =>x.raflar)
+    @Html.TextBoxFor(x=>x.raflar, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(x =>x.kutuphane)
+    @Html.TextBoxFor(x=>x.kutuphane, new {@class ="form-control"})
+    <br />
+
+    <button class="btn btn-success">Fiyat Ekle</button>
+}
+
+

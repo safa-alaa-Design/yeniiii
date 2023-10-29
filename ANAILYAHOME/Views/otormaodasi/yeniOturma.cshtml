@@ -1,0 +1,42 @@
+﻿@model ANAILYAHOME.models.oturmaEkleModels
+@{
+    ViewData["Title"] = "yeniOturma";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+
+
+
+<br/>
+<form class="form-group" method="post">
+
+  
+    @Html.LabelFor(x =>x.urunAdı)
+    @Html.TextBoxFor(x=>x.urunAdı, new {@class ="form-control"})
+    <br/>
+
+    @Html.LabelFor(x =>x.urunKod)
+    @Html.TextBoxFor(x=>x.urunKod, new {@class ="form-control"})
+    <br />
+
+    @Html.LabelFor(x =>x.ahsapTipi)
+    @Html.TextBoxFor(x=>x.ahsapTipi, new {@class ="form-control"})
+   
+    <br />
+
+    @Html.LabelFor(x =>x.sungurTipi)
+    @Html.TextBoxFor(x=>x.sungurTipi, new {@class ="form-control"})
+    <br />
+
+    @Html.LabelFor(x =>x.tanım)
+    @Html.TextBoxFor(x=>x.tanım, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(x =>x.YatakOlmak)
+    @Html.TextBoxFor(x=>x.YatakOlmak, new {@class ="form-control"})
+    <br />
+
+
+    
+    <button class="btn btn-success">Oturma Odası Ekle</button>
+</form>  
+

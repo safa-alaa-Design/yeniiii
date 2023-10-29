@@ -1,0 +1,34 @@
+﻿@using ANAILYAHOME.entityes
+@model List<FotoEntity>
+
+@{
+    ViewData["Title"] = "fotograf";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+<h2 style="font-weight:700 ;position:absolute; top:70px;"> Fotograf</h2>
+<br />
+
+<table class="table table-bordered" style="margin-top:-15px">
+
+    <tr>
+        <th>Id</th>
+        <th>Fotograf Adı</th>
+        <th>Cüncele</th>
+        <th>sil</th>
+
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.id</td>
+            <td>@x.foto</td>
+            <td><a href="/Admen/fotografgetir/@x.id" class="btn btn-primary">Cüncele</a></td>
+            <td><a href="/Admen/fotografsil/@x.id" class="btn btn-danger">sil</a></td>
+
+        </tr>
+    }
+</table>
+<a href="/Admen/yeniFotograf/" class="btn btn-primary">Yeni fotograf odası ek</a>
+

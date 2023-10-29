@@ -1,0 +1,38 @@
+﻿@using ANAILYAHOME.entityes
+@model List<FiyatEntity>
+
+@{
+    ViewData["Title"] = "degerfiyat";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+
+
+
+<h2 style="font-weight:700 ;position:absolute; top:70px;">Değer Işyeler Fıyat </h2>
+<br />
+
+<table class="table table-bordered" style="margin-top:-15px">
+
+    <tr>
+        <th>Id</th>
+        <th>Urun Adi</th>
+        <th>Cüncele</th>
+        <th>sil</th>
+
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.id</td>
+            <td>@x.urun.katagore</td>
+            <td><a href="/Admen/degerfiyatgetir/@x.id" class="btn btn-primary">Cüncele</a></td>
+            <td><a href="/Admen/fiyatsil/@x.id" class="btn btn-danger">sil</a></td>
+
+        </tr>
+    }
+</table>
+<a href="/Admen/yenidegerFiyat/" class="btn btn-primary">Fiyat ek</a>
+
+

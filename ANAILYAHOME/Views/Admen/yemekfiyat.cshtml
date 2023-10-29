@@ -1,0 +1,48 @@
+﻿@using ANAILYAHOME.entityes
+@model List<yemekfiyatler>
+
+@{
+    ViewData["Title"] = "yemekfiyat";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+
+
+
+<div class="w3-bar-item w3-button fiyat">
+    <ul>
+        <li><a href="/Admen/fiyat">Fıyat</a></li>
+        <li><a href="/Admen/oturmafiyat">Oturma odası fıyat</a></li>
+        <li><a href="/Admen/yatmafiyat">Yatma odası fıyat</a></li>
+        <li><a href="/Admen/cocukfiyat">Çocuk odası fıyat</a></li>
+        <li><a href="/Admen/yemekfiyat">Yemek odası fıyat</a></li>
+    </ul>
+</div>
+
+<h2 style="font-weight:600 ;position:absolute; top:135px;">Yemek Odası Fıyat </h2>
+<br />
+
+
+<table class="table table-bordered" style="margin-top:52px">
+
+    <tr>
+        <th>Id</th>
+        <th>Urun Adi</th>
+        <th>Cüncele</th>
+        <th>sil</th>
+
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.id</td>
+            <td>@x.fiyat.Anafiyat</td>
+            <td><a href="/Admen/yemekfiyatgetir/@x.id" class="btn btn-primary">Cüncele</a></td>
+            <td><a href="/Admen/yemekfiyatsil/@x.id" class="btn btn-danger">sil</a></td>
+
+        </tr>
+    }
+</table>
+<a href="/Admen/yeniyemekFiyat/" class="btn btn-primary">Fiyat ek</a>
+

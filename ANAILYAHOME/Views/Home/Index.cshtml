@@ -1,0 +1,175 @@
+﻿<!--Home-->
+<section class="home" id="home">
+    <div class="home-text">
+        <h1><span>Make</span>Your Comfort <br> Is Our <span>Happiness</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Dolores veritatis ad</p>
+        <a href="#shop" class="btn">Shop Now</a>
+    </div>
+</section>
+
+
+
+<section class="shop" id="shop">
+    <div class="heading">
+        <span>New Arrival</span>
+
+        <h2>shop Now</h2>
+        <a asp-controller="shop" asp-action="shop">view more <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+
+
+    <!--content-->
+    <div class="shop-container">
+        <!--Box 1-->
+        <div class="box">
+            <div class="box-img">
+                <a asp-controller="urunbilgi" asp-action="urunbilgi">
+                    <img src="~/css/img/p1.jpg" alt="">
+                </a>
+            </div>
+            <div class="title-price">
+                <h3>Gray Chair</h3>
+
+            </div>
+            <i class='bx bx-cart'></i>
+        </div>
+        <!--Box 2-->
+        <div class="box">
+            <div class="box-img">
+                <img src="~/css/img/p2.jpg" alt="">
+            </div>
+            <div class="title-price">
+                <h3>Gray Chair</h3>
+            </div>
+
+            <i class='bx bx-cart'></i>
+        </div>
+        <!--Box 3-->
+        <div class="box">
+            <div class="box-img">
+                <img src="~/css/img/p3.jpg" alt="">
+            </div>
+            <div class="title-price">
+                <h3>Gray Chair</h3>
+            </div>
+
+            <i class='bx bx-cart'></i>
+        </div>
+        <!--Box 4-->
+        <div class="box">
+            <div class="box-img">
+                <img src="~/css/img/p4.jpg" alt="">
+            </div>
+            <div class="title-price">
+                <h3>Gray Chair</h3>
+            </div>
+
+            <i class='bx bx-cart'></i>
+        </div>
+        <!--Box 5-->
+        <div class="box">
+            <div class="box-img">
+                <img src="~/css/img/p5.jpg" alt="">
+            </div>
+            <div class="title-price">
+                <h3>Gray Chair</h3>
+            </div>
+
+            <i class='bx bx-cart'></i>
+        </div>
+
+        <!--Box 6-->
+        <div class="box">
+            <div class="box-img">
+                <img src="~/css/img/p6.jpg" alt="">
+            </div>
+            <div class="title-price">
+                <h3>Gray Chair</h3>
+            </div>
+
+            <i class='bx bx-cart'></i>
+        </div>
+    </div>
+</section>
+<!--New Arrivol-->
+<section class="new" id="new">
+    <div class="heading">
+        <span>New Collection</span>
+        <h2>Best Selling</h2>
+    </div>
+    <!--content-->
+    <div class="new-container">
+        <!--Box 1-->
+        <div class="box">
+            <div class="box-img">
+                <img src="~/css/img/new3.jpg" alt="">
+            </div>
+            <div class="title-price">
+                <h3>Gray Chair</h3>
+            </div>
+            <i class='bx bx-cart'></i>
+        </div>
+        <!--Box 2-->
+        <div class="box">
+            <div class="box-img">
+                <img src="~/css/img/new3.jpg" alt="">
+            </div>
+            <div class="title-price">
+                <h3>Gray Chair</h3>
+            </div>
+
+            <i class='bx bx-cart'></i>
+        </div>
+        <!--Box 3-->
+        <div class="box">
+            <div class="box-img">
+                <img src="~/css/img/new3.jpg" alt="">
+            </div>
+            <div class="title-price">
+                <h3>Gray Chair</h3>
+
+            </div>
+
+            <i class='bx bx-cart'></i>
+        </div>
+    </div>
+</section>
+
+
+<!--urun container-->
+
+<section class="urun-box">
+    <div class="boxs">
+        <h2>Sitting rooms</h2>
+        <h3>Sitting rooms in all shapes</h3>
+        <a asp-controller="oturmaodasi" asp-action="oturmaodasi"> <BUtton class="withe">shoppnig</BUtton></a>
+    </div>
+    <div class="boxs boxs2">
+        <h2>Food travel</h2>
+        <h3>Food travel in all shapes</h3>
+        <a asp-controller="yatmaodasi" asp-action="yatmaodasi"><BUtton class="withe">shoppnig</BUtton></a>
+    </div>
+    <div class="boxs boxs3">
+        <h2>Chairs</h2>
+        <h3>Chairs in all shapes</h3>
+        <a asp-controller="sandalye" asp-action="sandalye"><BUtton class="withe">shoppnig</BUtton></a>
+    </div>
+
+</section>
+
+
+<!---->
+<section class="newsletter" id="contact">
+    <div class="newtext">
+        <h2>Subscribe To Newsletter</h2>
+    </div>
+    <div class="form" onsubmit=" SendEmail() ;reset(); return false; ">
+        <input type="email" placeholder="Enter Your Email...">
+        <button class="normal">Sign Up</button>
+
+    </div>
+
+
+</section>
+
+

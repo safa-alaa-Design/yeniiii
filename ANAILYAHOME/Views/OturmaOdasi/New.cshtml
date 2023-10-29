@@ -1,0 +1,58 @@
+﻿@model ANAILYAHOME.models.oturmaEkleModels
+@{
+    ViewData["Title"] = "New";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+        <h2 class="text-primary">Add New Item</h2>
+        <hr />
+    </div>
+    <div class="mb-3">
+        <label asp-for="urunAdı"></label>
+        <input asp-for="urunAdı" class="form-control" />
+        <span asp-validation-for="urunAdı" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="urunKod"></label>
+        <input asp-for="urunKod" class="form-control" />
+        <span asp-validation-for="urunKod" class="text-danger"></span>
+    </div>
+   
+    <div class="mb-3">
+        <label asp-for="tanım"></label>
+        <input asp-for="tanım" class="form-control" />
+        <span asp-validation-for="tanım" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="sungurTipi"></label>
+        <input asp-for="sungurTipi" class="form-control" />
+        <span asp-validation-for="sungurTipi" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="ahsapTipi"></label>
+        <input asp-for="ahsapTipi" class="form-control" />
+        <span asp-validation-for="ahsapTipi" class="text-danger"></span>
+    </div>
+
+    @*<div class="mb-3">
+        <label asp-for="YatakOlmak"></label>
+        <input asp-for="YatakOlmak" class="form-control" />
+        <span asp-validation-for="YatakOlmak" class="text-danger"></span>
+    </div>*@
+
+    <div class="mb-3"> 
+    <button type="submit" class="btn btn-primary" style="width:150px">Save</button>
+    <a asp-action="Index" asp-controller="OturmaOdasi" class="btn btn-secondary" style="width:150px">
+        back to items
+    </a>
+   </div>
+    </div>
+</form>
+@*//لا يتم تحميل الصفحه اذا ما تعبت الانبةتات*@
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+}

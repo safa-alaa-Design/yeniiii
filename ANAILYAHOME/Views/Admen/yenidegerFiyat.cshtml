@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "yenidegerFiyat";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+@model ANAILYAHOME.entityes.FiyatEntity
+
+
+
+
+
+
+
+
+
+<form class="form-group" method="post">
+    <h2 style="font-weight:700;margin-top:-50px;padding-bottom:15px">Değer işyeler Fıyat</h2>
+
+    @Html.LabelFor(x =>x.UrunId)
+    @Html.TextBoxFor(x=>x.UrunId, new {@class ="form-control"})
+    <br />
+    <label class="col-form-label">Ulke</label>
+    @Html.DropDownList("Ulke",
+    Html.GetEnumSelectList<ulkeler>(),
+    "Ulkenizin Seç",
+    new {@class ="form-control"} )
+    <br />
+    @Html.LabelFor(x =>x.Anafiyat)
+    @Html.TextBoxFor(x=>x.Anafiyat, new {@class ="form-control"})
+    <br />
+    
+
+    <button class="btn btn-success">Fiyat Ekle</button>
+</form>
+
+
+
+

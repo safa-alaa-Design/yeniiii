@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "degerfiyatgetir";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+@model ANAILYAHOME.entityes.FiyatEntity
+
+@using (Html.BeginForm("degerfiyatguncele", "Admen", FormMethod.Post))
+{
+    <h2 style="font-weight:700;margin-top:-50px;padding-bottom:15px">Değer İşyeler Fıyat Güncele</h2>
+
+    @Html.LabelFor(x =>x.id)
+    @Html.TextBoxFor(x=>x.id, new {@class ="form-control"})
+    <br />
+    <label class="col-form-label">Ulke</label>
+    @Html.DropDownList("Ulke",
+    Html.GetEnumSelectList<ulkeler>(),
+    "Ulkenizin Seç",
+    new {@class ="form-control"} )
+    <br />
+    @Html.LabelFor(x =>x.Anafiyat)
+    @Html.TextBoxFor(x=>x.Anafiyat, new {@class ="form-control"})
+    <br />
+    <button class="btn btn-success">Fiyat Ekle</button>
+}
+
+
+
+

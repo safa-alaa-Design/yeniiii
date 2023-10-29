@@ -1,0 +1,31 @@
+﻿@model ANAILYAHOME.entityes.Buyutlar
+@{
+    ViewData["Title"] = "boyutgetir";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+<br />
+
+@using (Html.BeginForm("boyutguncele", "Admen", FormMethod.Post))
+{
+    @Html.LabelFor(p =>p.id)
+    @Html.TextBoxFor(p=>p.id, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(p =>p.Genişlik)
+    @Html.TextBoxFor(p=>p.Genişlik, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(p =>p.Genişlik)
+    @Html.TextBoxFor(p=>p.Genişlik, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(p =>p.Yükseklik)
+    @Html.TextBoxFor(p=>p.Yükseklik, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(p =>p.Derinlik)
+    @Html.TextBoxFor(p=>p.Derinlik, new {@class ="form-control"})
+    <br />
+
+
+    <button class="btn btn-success">Boyut Güncele</button>
+
+}
+

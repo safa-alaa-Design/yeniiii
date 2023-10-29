@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "yeniyemekFiyat";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+
+
+@model ANAILYAHOME.entityes.yemekfiyatler
+
+
+
+
+
+
+
+
+
+<form class="form-group" method="post">
+    <h2 style="font-weight:700;margin-top:-50px;padding-bottom:15px">Yenı Yemek Odası Fıyat</h2>
+
+    @Html.LabelFor(x =>x.fiyatId)
+    @Html.TextBoxFor(x=>x.fiyatId, new {@class ="form-control"})
+    <br />
+    @Html.LabelFor(x =>x.sandaliye)
+    @Html.TextBoxFor(x=>x.sandaliye, new {@class ="form-control"})
+    <br />
+
+    <button class="btn btn-success">Fiyat Ekle</button>
+</form>
+
+
+
+

@@ -1,0 +1,39 @@
+﻿@using ANAILYAHOME.entityes;
+@model List<OturmaOdasi>
+
+@{
+    ViewData["Title"] = "oturmaListesi";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+@{
+    ViewData["Title"] = "Admen Page";
+}
+
+
+<h2 style="font-weight:700 ;position:absolute; top:70px;">Oturma Odasi</h2>
+<br />
+<table class="table table-bordered" style="margin-top:-15px">
+
+
+    <tr>
+        <th>Id</th>
+        <th>Oda Adı</th>
+        <th>Cüncele</th>
+        <th>sil</th>
+
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.id</td>
+            <td>@x.urun.urunAdı</td>
+            <td><a href="/otormaodasi/oturmagetir/@x.id" class="btn btn-primary">Cüncele</a></td>
+            <td><a href="/otormaodasi/oturmasil/@x.id" class="btn btn-danger">sil</a></td>
+
+        </tr>
+    }
+</table>
+<a href="/otormaodasi/yeniOturma/" class="btn btn-primary">yeni oturma odası ek</a>
+

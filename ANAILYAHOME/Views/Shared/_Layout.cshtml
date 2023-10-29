@@ -1,0 +1,101 @@
+﻿
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLYA HOME</title>
+    <!--link to css-->
+    <link rel="stylesheet" href="~/css/Mobilya.css">
+   
+    <!--Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <div class="logoss">
+            <a href="#" class="logoilya">
+                <img src="~/css/img/logoilya.png" alt="" width="100" height="44px">
+            </a>
+            <a href="#" class="logo"> İLYA <span>HOME</span></a>
+        </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a href="#shop">shop</a></li>
+            <li><a asp-controller="about" asp-action="about">About</a></li>
+            <li><a asp-controller="Roles" asp-action="Index">Admin banal</a></li>
+            <li><a href="#new"><i class='bx bx-heart'></i></a></li>
+            <li><a  asp-controller="sepet" asp-action="sepet"><i class='bx bx-shopping-bag'></i></a></li>
+           
+
+
+            <partial name="_LoginPartial">
+        </ul>
+    </header>
+    @RenderBody()
+   
+
+
+
+
+
+
+
+    <!--footer-->
+    <footer id="footer">
+        <h1 class="text-center">İLYA <span style="color:#ecdd76">HOME</span></h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor minus praesentium</p>
+        <div class="icons text-center">
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-tiktok"></i>
+            <i class="bx bxl-whatsapp"></i>
+        </div>
+        <div class="copyright text-center">
+            &copy; Copyright <strong><span>Furniture</span></strong>. All Rights Reserved
+        </div>
+        <div class="credite text-center">
+            Desined By <a href="#">ALAA SHAHROR/SAFA ELHASAN</a>
+        </div>
+    </footer>
+
+    <script src="~/js/Mobilya.js"></script>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
