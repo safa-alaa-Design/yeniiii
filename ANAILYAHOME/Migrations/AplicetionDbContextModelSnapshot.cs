@@ -320,6 +320,10 @@ namespace ANAILYAHOME.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
+                    b.Property<string>("Ad")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Derinlik")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -676,8 +680,20 @@ namespace ANAILYAHOME.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
+                    b.Property<string>("Derinlik")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Genişlik")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool?>("YatakOlmak")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Yükseklik")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ahsapTipi")
                         .HasColumnType("nvarchar(max)");
@@ -734,21 +750,21 @@ namespace ANAILYAHOME.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "58848c8e-9ea7-4b94-a09a-39591d58888d",
+                            ConcurrencyStamp = "cd6fba0c-f0c9-4a1d-998c-13966efbad02",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = 3,
-                            ConcurrencyStamp = "427fa48a-eebc-4b84-a8ff-120c40228dab",
+                            ConcurrencyStamp = "a1274f78-bc60-47c6-9f1d-877bec2f8773",
                             Name = "USER",
                             NormalizedName = "USER"
                         },
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "1dc7d834-16da-49ff-9c41-97a079fc973b",
+                            ConcurrencyStamp = "eb4e1419-a6bc-4165-a0b4-b6774fc4afd3",
                             Name = "SATICI",
                             NormalizedName = "SATICI"
                         });

@@ -1,5 +1,6 @@
 ﻿using ANAILYAHOME.Models;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ANAILYAHOME.entityes
 {
@@ -10,5 +11,6 @@ namespace ANAILYAHOME.entityes
         public string foto { get; set; }
         public int UrunId { get; set; }
         public urunEntity urun { get; set; }
+     
     }
 }

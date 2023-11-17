@@ -14,7 +14,7 @@ using ANAILYAHOME.models;
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);
-        optionsBuilder.UseSqlServer("server=LAPTOP-D4MQ1QML\\SQLEXPRESS01; database=ILYAHOME;Integrated Security=true; TrustServerCertificate=true; ");
+        optionsBuilder.UseSqlServer("server=ALAA_SHAHROR\\SQLEXPRESS02; database=ILYAHOME;Integrated Security=true; TrustServerCertificate=true; ");
     }
     public AplicetionDbContext()
     {
@@ -105,7 +105,8 @@ using ANAILYAHOME.models;
         modelBuilder.Entity<urunEntity>()
                 .HasMany(a => a.Listoffiyat)
                 .WithOne(a => a.urun)
-                .HasForeignKey(a => a.UrunId);
+                .HasForeignKey(a => a.UrunId)
+                .OnDelete(DeleteBehavior.Cascade);
 
         base.OnModelCreating(modelBuilder);
 
@@ -113,7 +114,8 @@ using ANAILYAHOME.models;
         modelBuilder.Entity<urunEntity>()
                 .HasMany(a => a.ListofBuyut)
                 .WithOne(a => a.urun)
-                .HasForeignKey(a => a.UrunId);
+                .HasForeignKey(a => a.UrunId)
+                .OnDelete(DeleteBehavior.Cascade);
 
 
         base.OnModelCreating(modelBuilder);
@@ -124,7 +126,8 @@ using ANAILYAHOME.models;
         modelBuilder.Entity<urunEntity>()
                 .HasMany(a => a.Listoffoto)
                 .WithOne(a => a.urun)
-                .HasForeignKey(a => a.UrunId);
+                .HasForeignKey(a => a.UrunId)
+                .OnDelete(DeleteBehavior.Cascade);
 
 
         base.OnModelCreating(modelBuilder);
@@ -199,7 +202,8 @@ using ANAILYAHOME.models;
         modelBuilder.Entity<urunEntity>()
                .HasOne(a => a.oturma)
                .WithOne(a => a.urun)
-               .HasForeignKey<OturmaOdasi>(a => a.UrunId);
+               .HasForeignKey<OturmaOdasi>(a => a.UrunId)
+               .OnDelete(DeleteBehavior.Cascade);
 
 
         base.OnModelCreating(modelBuilder);
@@ -212,7 +216,8 @@ using ANAILYAHOME.models;
         modelBuilder.Entity<urunEntity>()
               .HasOne(a => a.yatma)
               .WithOne(a => a.urun)
-              .HasForeignKey<YatmaOdasi>(a => a.UrunId);
+              .HasForeignKey<YatmaOdasi>(a => a.UrunId)
+              .OnDelete(DeleteBehavior.Cascade);
 
 
         base.OnModelCreating(modelBuilder);
@@ -222,7 +227,8 @@ using ANAILYAHOME.models;
         modelBuilder.Entity<urunEntity>()
              .HasOne(a => a.cocuk)
              .WithOne(a => a.urun)
-             .HasForeignKey<CocukOdasi>(a => a.UrunId);
+             .HasForeignKey<CocukOdasi>(a => a.UrunId)
+             .OnDelete(DeleteBehavior.Cascade);
 
 
         base.OnModelCreating(modelBuilder);
@@ -232,7 +238,8 @@ using ANAILYAHOME.models;
         modelBuilder.Entity<urunEntity>()
              .HasOne(a => a.yemek)
              .WithOne(a => a.urun)
-             .HasForeignKey<YemekOdasi>(a => a.UrunId);
+             .HasForeignKey<YemekOdasi>(a => a.UrunId)
+             .OnDelete(DeleteBehavior.Cascade);
 
 
         base.OnModelCreating(modelBuilder);
@@ -241,7 +248,8 @@ using ANAILYAHOME.models;
         modelBuilder.Entity<urunEntity>()
              .HasOne(a => a.deger)
              .WithOne(a => a.urun)
-             .HasForeignKey<Degerler>(a => a.UrunId);
+             .HasForeignKey<Degerler>(a => a.UrunId)
+             .OnDelete(DeleteBehavior.Cascade);
 
 
         base.OnModelCreating(modelBuilder);

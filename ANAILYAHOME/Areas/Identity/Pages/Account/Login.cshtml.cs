@@ -112,7 +112,14 @@ namespace ANAILYAHOME.Areas.Identity.Pages.Account
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
-            var username = new EmailAddressAttribute().IsValid(Input.Email)? _userManager.FindByEmailAsync(Input.Email).Result.UserName : Input.Email;
+
+            var username = new EmailAddressAttribute().IsValid(Input.Email) ? _userManager.FindByEmailAsync(Input.Email)?.Result?.UserName : Input.Email;
+
+            if (username is null)
+            {
+                ModelState.AddModelError("email", "email veay şifre hatalı.");
+                return Page();
+            }
 
             if (ModelState.IsValid)
             {

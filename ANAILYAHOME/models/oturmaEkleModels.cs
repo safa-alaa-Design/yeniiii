@@ -13,6 +13,11 @@ namespace ANAILYAHOME.models
         public string? sungurTipi { get; set; }
         public string? ahsapTipi { get; set; }
         public Boolean? YatakOlmak { get; set; }
+        public string Genişlik { get; set; }
+        public string Yükseklik { get; set; }
+        public string Derinlik { get; set; }
+        //public List<BoyutModels> boyutModels { get; set;}
+
 
     }
 }

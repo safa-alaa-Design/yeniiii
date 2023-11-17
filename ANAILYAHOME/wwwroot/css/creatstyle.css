@@ -1,0 +1,36 @@
+
+
+.codetable table {
+    width :100%;
+}
+.codetable thead {
+    width: calc(100%-lem);
+    
+}
+
+.codetable tbody{
+    display:block;
+    height:130px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.codetable thead, .codetable tbody tr{
+    display:table;
+    width:98%;
+   
+}
+
+    .codetable thead, .codetable tbody .codetable td{
+        border:none !important;
+  
+        
+        }
+
+
+
+    .codetable1 thead, .codetable1 tbody tr {
+        display: table;
+        width: 98%;
+        
+    }

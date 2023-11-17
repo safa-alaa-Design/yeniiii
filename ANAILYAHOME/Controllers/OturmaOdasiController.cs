@@ -1,4 +1,5 @@
 ﻿using ANAILYAHOME.entityes;
+using ANAILYAHOME.Migrations;
 using ANAILYAHOME.models;
 using ANAILYAHOME.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -22,14 +23,19 @@ namespace ANAILYAHOME.Controllers
         public IActionResult Index()
         {
 
-             IEnumerable<OturmaOdasi> itemsList = _db.oturma.Include(c => c.urun).ToList();
+            List<urunEntity> itemsList = _db.urun.Include(c => c.oturma).ToList();
+          
             return View(itemsList);
         }
-            
-        
+
+
 
         public IActionResult New()
         {
+            //urunEntity urunlar = new urunEntity();
+            //urunlar.ListofBuyut.Add(new Buyutlar() { id = 1 });
+            //urunlar.ListofBuyut.Add(new Buyutlar() { id = 2  });
+            //urunlar.ListofBuyut.Add(new Buyutlar() { id = 3 });
             return View();
         }
 
@@ -43,8 +49,12 @@ namespace ANAILYAHOME.Controllers
                 {
                     YatakOlmak = model.YatakOlmak,
 
+
+
                     urun = new urunEntity
                     {
+
+
                         AdmenbanalId = 1,
                         katagore = katagore.OturmaOdası,
                         urunKod = model.urunKod,
@@ -52,7 +62,10 @@ namespace ANAILYAHOME.Controllers
                         urunAdı = model.urunAdı,
                         sungurTipi = model.sungurTipi,
                         ahsapTipi = model.ahsapTipi,
+
+
                     }
+
 
                 };
 
@@ -74,23 +87,45 @@ namespace ANAILYAHOME.Controllers
             {
                 return NotFound();
             }
-            var item = _db.oturma.FirstOrDefault(x=>x.id == id);
+
+            var item = _db.oturma.Include(i => i.urun).FirstOrDefault(x => x.id == id);
             if (item == null)
             {
                 return NotFound();
             }
-            return View(item);
+            var model = new oturmaEkleModels
+            {
+                urunKod = item.urun.urunKod,
+                tanım = item.urun.tanım,
+                urunAdı = item.urun.urunAdı,
+                sungurTipi = item.urun.sungurTipi,
+                ahsapTipi = item.urun.ahsapTipi,
+
+            };
+            return View(model);
         }
 
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(OturmaOdasi item)
+        public IActionResult Edit(oturmaEkleModels model)
         {
-          
+
+
             if (ModelState.IsValid)
             {
-                _db.oturma.Update(item);
+                var entity = _db.oturma.Include(i => i.urun).FirstOrDefault(x => x.id == model.id);
+
+
+                entity.YatakOlmak = model.YatakOlmak;
+                entity.urun.urunAdı = model.urunAdı;
+                entity.urun.urunKod = model.urunKod;
+                entity.urun.tanım = model.tanım;
+                entity.urun.sungurTipi = model.sungurTipi;
+                entity.urun.ahsapTipi = model.ahsapTipi;
+
+
+                _db.oturma.Update(entity);
                 _db.SaveChanges();
                 //رساله تم تعديل المنتج عند اضافة المنتج
                 TempData["successData"] = "Urun güncellendi";
@@ -98,19 +133,20 @@ namespace ANAILYAHOME.Controllers
             }
             else
             {
-                return View(item);
+                return View(model);
             }
         }
 
 
         //GET
-        public IActionResult Delete(int? Id)
+        public IActionResult Delete(int? id)
         {
-            if (Id == null || Id == 0)
+
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
-            var item = _db.oturma.Find(Id);
+            var item = _db.oturma.Include(i => i.urun).FirstOrDefault(x => x.id == id);
             if (item == null)
             {
                 return NotFound();
@@ -123,7 +159,8 @@ namespace ANAILYAHOME.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteItem(int? id)
         {
-            var item = _db.oturma.Find(id);
+            var item = _db.urun.FirstOrDefault(i => i.oturma.id == id);
+
             if (item == null)
             {
                 return NotFound();

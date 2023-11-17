@@ -1,4 +1,4 @@
-﻿@model ANAILYAHOME.entityes.OturmaOdasi
+﻿@model ANAILYAHOME.models.oturmaEkleModels
 @{
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
@@ -17,30 +17,30 @@
             <hr />
         </div>
             <div class="mb-3">
-                <label asp-for="urun.urunAdı"></label>
-                <input asp-for="urun.urunAdı" class="form-control" />
-                <span asp-validation-for="urun.urunAdı" class="text-danger"></span>
+                <label asp-for="urunAdı"></label>
+                <input asp-for="urunAdı" class="form-control" />
+                <span asp-validation-for="urunAdı" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                <label asp-for="urun.urunKod"></label>
-                <input asp-for="urun.urunKod" class="form-control" />
-                <span asp-validation-for="urun.urunKod" class="text-danger"></span>
+                <label asp-for="urunKod"></label>
+                <input asp-for="urunKod" class="form-control" />
+                <span asp-validation-for="urunKod" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="urun.tanım"></label>
-                <input asp-for="urun.tanım" class="form-control" />
-                <span asp-validation-for="urun.tanım" class="text-danger"></span>
+                <label asp-for="tanım"></label>
+                <input asp-for="tanım" class="form-control" />
+                <span asp-validation-for="tanım" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                <label asp-for="urun.sungurTipi"></label>
-                <input asp-for="urun.sungurTipi" class="form-control" />
-                <span asp-validation-for="urun.sungurTipi" class="text-danger"></span>
+                <label asp-for="sungurTipi"></label>
+                <input asp-for="sungurTipi" class="form-control" />
+                <span asp-validation-for="sungurTipi" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                <label asp-for="urun.ahsapTipi"></label>
-                <input asp-for="urun.ahsapTipi" class="form-control" />
-                <span asp-validation-for="urun.ahsapTipi" class="text-danger"></span>
+                <label asp-for="ahsapTipi"></label>
+                <input asp-for="ahsapTipi" class="form-control" />
+                <span asp-validation-for="ahsapTipi" class="text-danger"></span>
             </div>
             <div class="mb-3">
         <button type="submit" class="btn btn-primary" style="width:150px">Save</button>

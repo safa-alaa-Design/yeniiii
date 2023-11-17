@@ -36,7 +36,10 @@
         <input asp-for="ahsapTipi" class="form-control" />
         <span asp-validation-for="ahsapTipi" class="text-danger"></span>
     </div>
-
+    <h4>Details</h4>
+        <a asp-action="yeniBoyut" asp-controller="boyutler" class="btn btn-primary" style="width:150px">
+           Boyut Ekle
+        </a>
     @*<div class="mb-3">
         <label asp-for="YatakOlmak"></label>
         <input asp-for="YatakOlmak" class="form-control" />
@@ -49,7 +52,21 @@
         back to items
     </a>
    </div>
-    </div>
+
+   
+   @* <table class="table table-bordered" id="detailsTable">
+       <thead>
+           <tr>
+               <th>genişlik</th>
+               <th>Yükseklik</th>
+               <th>Derinlik</th>
+           </tr>
+       </thead>
+       <tbody>
+           @for(int i=0; i <  ;i++){}
+       </tbody>
+
+    </div> *@
 </form>
 @*//لا يتم تحميل الصفحه اذا ما تعبت الانبةتات*@
 @section Scripts {

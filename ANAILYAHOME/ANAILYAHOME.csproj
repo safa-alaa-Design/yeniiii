@@ -7,12 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\creatstyle.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Properties\launchSettings.json" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
     <None Include="Views\Home\Index.cshtml" />
+    <None Include="wwwroot\css\creatstyle.css" />
     <None Include="wwwroot\css\style.css" />
   </ItemGroup>
 

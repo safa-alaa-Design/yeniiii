@@ -1,92 +1,68 @@
-﻿<!--shop-->
-<section class="shop" id="shop">
-    <!--content-->
-    <div class="shop-container" id="shospsayfasi">
-        <!--Box 1-->
-        <div class="box" onclick="window.location.href='urun.html'">
-            <div class="box-img">
-                <img src="~/css/img/background.jpg" alt="">
-            </div>
-            <div class="title-price">
-                <h3>Gray Chair</h3>
+﻿@model IEnumerable<ANAILYAHOME.Models.urunEntity>
 
-            </div>
-            <i class='bx bx-cart'></i>
-        </div>
-        <!--Box 2-->
-        <div class="box">
-            <div class="box-img">
-                <img src="~/css/img/background3.jpg" alt="">
-            </div>
-            <div class="title-price">
-                <h3>Gray Chair</h3>
-            </div>
-
-            <i class='bx bx-cart'></i>
-        </div>
-        <!--Box 3-->
-        <div class="box">
-            <div class="box-img">
-                <img src="~/css/img/background4.png" alt="">
-            </div>
-            <div class="title-price">
-                <h3>Gray Chair</h3>
-            </div>
-
-            <i class='bx bx-cart'></i>
-        </div>
-        <!--Box 4-->
-        <div class="box">
-            <div class="box-img">
-                <img src="~/css/img/p4.jpg" alt="">
-            </div>
-            <div class="title-price">
-                <h3>Gray Chair</h3>
-            </div>
-
-            <i class='bx bx-cart'></i>
-        </div>
-        <!--Box 5-->
-        <div class="box">
-            <div class="box-img">
-                <img src="~/css/img/p5.jpg" alt="">
-            </div>
-            <div class="title-price">
-                <h3>Gray Chair</h3>
-            </div>
-
-            <i class='bx bx-cart'></i>
-        </div>
-
-        <!--Box 6-->
-        <div class="box">
-            <div class="box-img">
-                <img src="~/css/img/p6.jpg" alt="">
-            </div>
-            <div class="title-price">
-                <h3>Gray Chair</h3>
-            </div>
-
-            <i class='bx bx-cart'></i>
-        </div>
+@{
+    ViewData["Title"] = "yatmaodasi";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
 
 
-    </div>
-</section>
+<h1>yatmaodasi</h1>
 
-
-
-
-<!---->
-<section class="newsletter" id="contact">
-    <div class="newtext">
-        <h2>Subscribe To Newsletter</h2>
-    </div>
-    <div class="form" onsubmit=" SendEmail() ;reset(); return false; ">
-        <input type="email" placeholder="Enter Your Email...">
-        <button class="normal">Sign Up</button>
-
-    </div>
-
-
-</section>
+<p>
+    <a asp-action="Create" class="btn btn-success">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.urunKod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.urunAdı)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tanım)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ahsapTipi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sungurTipi)
+            </th>
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.urunKod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.urunAdı)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tanım)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ahsapTipi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sungurTipi)
+            </td>
+          @*   <td>
+                @Html.DisplayFor(modelItem => item.katagore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Admenbanal.id)
+            </td> *@
+            <td>
+                    <a asp-action="Edit" class="btn btn-info" asp-route-id="@item.id">Edit</a> |
+ 
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

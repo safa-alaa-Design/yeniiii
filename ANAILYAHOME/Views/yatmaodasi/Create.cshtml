@@ -1,0 +1,498 @@
+﻿@model ANAILYAHOME.Models.urunEntity
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>urunEntity</h4>
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="urunKod" class="control-label"></label>
+                <input asp-for="urunKod" class="form-control" />
+                <span asp-validation-for="urunKod" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="urunAdı" class="control-label"></label>
+                <input asp-for="urunAdı" class="form-control" />
+                <span asp-validation-for="urunAdı" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tanım" class="control-label"></label>
+                <input asp-for="tanım" class="form-control" />
+                <span asp-validation-for="tanım" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ahsapTipi" class="control-label"></label>
+                <input asp-for="ahsapTipi" class="form-control" />
+                <span asp-validation-for="ahsapTipi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sungurTipi" class="control-label"></label>
+                <input asp-for="sungurTipi" class="form-control" />
+                <span asp-validation-for="sungurTipi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="yatma.çekmeceliSayi" class="control-label"></label>
+                <input asp-for="yatma.çekmeceliSayi" class="form-control" />
+                <span asp-validation-for="yatma.çekmeceliSayi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="yatma.dulapKapiTipi" class="control-label"></label>
+                <input asp-for="yatma.dulapKapiTipi" class="form-control" />
+                <span asp-validation-for="yatma.dulapKapiTipi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="yatma.yatakTacRengi" class="control-label"></label>
+                <input asp-for="yatma.yatakTacRengi" class="form-control" />
+                <span asp-validation-for="yatma.yatakTacRengi" class="text-danger"></span>
+            </div>
+           @*  <div class="form-group">
+                <label asp-for="katagore" class="control-label"></label>
+                <select asp-for="katagore" class="form-control"></select>
+                <span asp-validation-for="katagore" class="text-danger"></span>
+            </div> *@
+           @*  <div class="form-group">
+                <label asp-for="AdmenbanalId" class="control-label"></label>
+                <select asp-for="AdmenbanalId" class ="form-control" asp-items="ViewBag.AdmenbanalId"></select>
+            </div> *@
+
+                  <br>
+              <br>
+
+                  <div class=" col-12 ml-5">
+              
+                    <table id="boyutTable" class="table table-borderless table-sm mb-0 pb-0 border codetable ">
+                <thead>
+                    <tr>
+                        <th>Urun Adı</th>
+                        <th>Genişlik</th>
+                        <th>Yukseklik</th>
+                        <th>Derinlik</th>
+                        <th style="width:60px;">
+                             <button id="btnboyut" type="button" class="btn btn-sm btn-secondary visible"
+                                            onclick="AddItem(this)">
+                                        Add
+                             </button>
+
+                        </th>
+                    </tr>
+
+                </thead>
+
+                 <tbody>
+                    @for(int i =0; i< Model.ListofBuyut.Count; i++)
+                    {
+                        <tr>
+                            <td>
+                                <input asp-for="@Model.ListofBuyut[i].Ad" class="form-control"/>
+                            </td>
+                            <td>
+                                 <input asp-for="@Model.ListofBuyut[i].Genişlik" class="form-control"/>
+                            </td>
+                            <td>
+                                 <input asp-for="@Model.ListofBuyut[i].Yükseklik" class="form-control"/>
+                            </td>
+                            <td>
+                                 <input asp-for="@Model.ListofBuyut[i].Derinlik" class="form-control"/>
+                           </td>
+                            
+
+                            <td style="width:60px;">
+                                        <input type="hidden" asp-for="@Model.ListofBuyut[i].IsDeleted" />
+                                        <button id="btnremove-@i" type="button" class="btn btn-sm btn-danger visible"
+                                    onclick="DeleteItem(this)">
+                                Delete
+                            </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+             </table>
+             </div>
+  
+            <br>
+            <br>
+
+            <div class=" col-12 ml-5">
+
+                <table id="fotoTable" class="table table-borderless table-sm mb-0 pb-0 border codetable">
+                    <thead>
+                        <tr>
+                           
+                            <th>foto</th>
+                            <th style="width:60px;">
+                                <button id="btnfoto" type="button" class="btn btn-sm btn-secondary visible"
+                                        onclick="AddItem(this)">
+                                    Add
+                                </button>
+
+                            </th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                        @for (int i = 0; i < Model.Listoffoto.Count; i++)
+                        {
+                            <tr>
+                              <td>
+
+                                 <div class="mb-3">
+
+                                        <input type="file" class="form-control" asp-for="Listoffoto[i].foto" />
+                                    <small class="form-text text-muted">only .jpg, .jpe, .png file are allowed </small>
+                                        <span asp-validation-for="Listoffoto[i].foto" class="text-danger"></span>
+                                </div>
+                              </td>
+                              
+                            
+                                <td style="width:60px;">
+                                    <button id='btnremovefoto-@i ' type="button" class="btn  btn-sm btn-danger visible"
+                                        onclick="DeleteItem(this)">
+                                        Delete
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+           @* fiyatlar*@
+
+            <br>
+            <br>
+
+            <div class=" col-12 ml-2 ">
+
+                <table id="fiyatTable" class="table table-borderless table-sm mb-0 pb-0 border codetable codetable1">
+                    <thead>
+                        <tr>
+
+                            <th>Ulke</th>
+                            <th>Ana Fiyat</th>
+                            <th>yidilik</th>
+                            <th>yataş</th>
+                            <th>sandaliye</th>
+                            <th>sanduk</th>
+                            <th>konsol</th>
+                            <th>yatakçekmeceli</th>
+                            <th>bof</th>
+                            <th>anbarli</th>
+                           
+                             
+                            <th style="width:60px;">
+                                <button id="btnfiyat" type="button" class="btn btn-sm btn-secondary visible"
+                                        onclick="AddItem(this)">
+                                    Add
+                                </button>
+
+                            </th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                        @for (int i = 0; i < Model.Listoffiyat.Count; i++)
+                        {
+                            <tr>
+                                <td>
+                                    <select asp-for="@Model.Listoffiyat[i]" class="form-control" asp-items="Html.GetEnumSelectList<ulkeler>()">
+                                        <option value="0">Ülkeniz seç</option>
+                                    </select>
+                                    <span asp-validation-for="@Model.Listoffiyat[i]" class="text-danger"></span>
+
+                                 @*  @Html.DropDownList("Ulke",
+                                  Html.GetEnumSelectList<ulkeler>(),
+                                   "Ulke Seç",
+                                   new {@class ="form-control"} )*@
+                                </td>
+
+                                <td>
+                                    <input asp-for="@Model.Listoffiyat[i].Anafiyat" class="form-control" />
+                                </td>
+                                <td>
+                                    <input asp-for="@Model.Listoffiyat[i].yatmafiyat.Aynafiyat" class="form-control" />
+                                </td>
+                                <td>
+                                    <input asp-for="@Model.Listoffiyat[i].yatmafiyat.yidilik" class="form-control" />
+                                </td>
+                                 <td>
+                                    <input asp-for="@Model.Listoffiyat[i].yatmafiyat.yataş" class="form-control" />
+                                </td>
+                                 <td>
+                                    <input asp-for="@Model.Listoffiyat[i].yatmafiyat.sandaliye" class="form-control" />
+                                </td>
+                                <td>
+                                    <input asp-for="@Model.Listoffiyat[i].yatmafiyat.sanduk" class="form-control" />
+                                </td>
+                                <td>
+                                    <input asp-for="@Model.Listoffiyat[i].yatmafiyat.konsol" class="form-control" />
+                                </td>
+                                 <td>
+                                    <input asp-for="@Model.Listoffiyat[i].yatmafiyat.yatakçekmeceli" class="form-control" />
+                                </td>
+                                <td>
+                                    <input asp-for="@Model.Listoffiyat[i].yatmafiyat.boffiyat" class="form-control" />
+                                </td>
+                                <td>
+                                    <input asp-for="@Model.Listoffiyat[i].yatmafiyat.anbarli" class="form-control" />
+                                </td>
+
+
+                                <td style="width:60px;">
+                                    <button id='btnremovefiyat-@i ' type="button" class="btn  btn-sm btn-danger visible"
+                                        onclick="DeleteItem(this)">
+                                        Delete
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+
+
+
+
+                <input type="hidden" id="hdnLastIndex" value="0"/>  
+
+                <br><br>
+                <div class=" col-12 btn-group p-0 m-0">
+                    <div class="col-6 form-group text-left p-0">
+                         <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </div>
+                    
+            
+            
+        
+         </form>
+                    
+     </div>     
+
+
+ </div>
+            
+
+
+
+
+ @section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @*//لا يتم تحميل الصفحه اذا ما تعبت الانبةتات*@
+    <partial name="_ValidationScriptsPartial" />
+    }
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*
+
+
+
+
+
+           <h4>buyutlar</h4>
+            <table class="table table-bordered" id="boyutTable">
+                <thead>
+                    <tr>
+                        <th>Urun Adı</th>
+                        <th>Genişlik</th>
+                        <th>Yukseklik</th>
+                        <th>Derinlik</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    @for(int i =0; i< Model.ListofBuyut.Count; i++)
+                    {
+                        <tr>
+                            <td>
+                                @Html.EditorFor(m => m.ListofBuyut[i].Ad,new {htmlAttributes = new {@class = "form-control"}})
+                            </td>
+                            <td>
+                                @Html.EditorFor(m => m.ListofBuyut[i].Genişlik,new {htmlAttributes = new {@class = "form-control"}})
+                            </td>
+                            <td>
+                                @Html.EditorFor(m => m.ListofBuyut[i].Yükseklik,new {htmlAttributes = new {@class = "form-control"}})
+                            </td>
+                            <td>
+                                @Html.EditorFor(m => m.ListofBuyut[i].Derinlik,new {htmlAttributes = new {@class = "form-control"}})
+                            </td>
+                            
+
+                            <td>
+                                <button id="dummybtn-@i" type="button" class="btn btn-sm btn-secondary invisible">Dummy</button>
+                                <button id="addbtn-@i" type="button" class="btn btn-sm btn-secondary visible"
+                                onclick="AddItem(this)" style="left: 85%; position:absolute">Add</button>                            
+
+                            <button id="btnremove-@i" type="button" class="btn btn-sm btn-danger invisible"
+                                    onclick="DeleteItem(this)" style="left: 85%; position:absolute">
+                                Delete
+                            </button>
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+            <input type="hidden" id="hdnLastIndex" value="0"/>
+
+            <h4>Fotolar</h4>
+            <table class="table table-bordered" id="fotoTable">
+                <thead>
+                    <tr>
+
+                        <th>Foto</th>
+
+                    </tr>
+
+                </thead>
+                <tbody>
+                  @for (int s = 0; s < Model.Listoffoto.Count; s++)
+                    {
+                        <tr>*
+                           <td>
+                                لاضافة صور
+                             <div class="mb-3">
+                                    <label asp-for="Listoffoto"></label>
+                                    <input type="file" class="form-control" asp-for="Listoffoto" />
+                                    <small class="form-text text-muted">only .jpg, .jpe, .png file are allowed </small>
+                                    <span asp-validation-for="Listoffoto" class="text-danger"></span>
+                                </div>
+                           <td>
+                                    @Html.EditorFor(m => m.Listoffoto[s].foto,new {htmlAttributes = new {@class = "form-control"}})
+                            </td>
+
+                            <td>
+                                <button id="dummybtn-@s" type="button" class="btn btn-sm btn-secondary invisible">Dummy</button>
+                                <button id="addbtnfoto-@s" type="button" class="btn btn-sm btn-secondary visible"
+                                    onclick="AddItem(this)" style="left: 85%; position:absolute">
+                                    Add
+                                </button>
+
+                                <button id="btnremove-@s" type="button" class="btn btn-sm btn-danger invisible"
+                                    onclick="DeleteItem(this)" style="left: 85%; position:absolute">
+                                    Delete
+                                </button>
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+            <input type="hidden" id="hdnLastIndex" value="0" />
+
+
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+       <script type="text/javascript" >
+        //ازرار القياسات
+        $(".custom-file-input").on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+
+
+
+        function DeleteItem(btn) {
+            $(btn).closest('tr').remove();
+    
+            
+        function AddItem(btn) {
+
+            var table = document.getElementById('boyutTable');
+
+                if (btn.id == "addbtnfoto") {
+                    table = document.getElementById('fotoTable');
+                }
+                else
+                    table = document.getElementById('boyutTable');
+
+
+   
+            var rows = table.getElementsByTagName('tr');
+
+            var rowOuterHtml = rows[rows.length - 1].outerHTML;
+
+            var lastrowIdx = document.getElementById('hdnLastIndex').value;
+
+            var nextrowIdx = eval(lastrowIdx) + 1;
+
+            document.getElementById('hdnLastIndex').value = nextrowIdx;
+
+            rowOuterHtml = rowOuterHtml.replaceAll('_' + lastrowIdx + '_', '_' + nextrowIdx + '_');
+            rowOuterHtml = rowOuterHtml.replaceAll('[' + lastrowIdx + ']', '[' + nextrowIdx + ']');
+            rowOuterHtml = rowOuterHtml.replaceAll('-' + lastrowIdx, '-' + nextrowIdx);
+
+
+            var newRow = table.insertRow();
+            newRow.innerHTML = rowOuterHtml;
+
+
+
+            var btnAddID = btn.id;
+                if (btn.id == "addbtnfoto"){
+                    btnDeleteid = btnAddID.replaceAll('addbtnfoto', 'btnremove');
+                }
+                else
+                    var btnDeleteid = btnAddID.replaceAll('addbtn', 'btnremove');
+
+            var delbtn = document.getElementById(btnDeleteid);
+            delbtn.classList.add("visible");
+            delbtn.classList.remove("invisible");
+
+
+            var addbtn = document.getElementById(btnAddID);
+            addbtn.classList.remove("visible");
+            addbtn.classList.add("invisible");
+           }
+           </script>
+           
+        
+*@
+

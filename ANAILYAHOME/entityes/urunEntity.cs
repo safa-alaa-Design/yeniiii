@@ -1,6 +1,7 @@
 ﻿using ANAILYAHOME.entityes;
 using ANAILYAHOME.Models;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ANAILYAHOME.Models
 {
@@ -45,18 +46,19 @@ namespace ANAILYAHOME.Models
         public string? ahsapTipi { get; set; }
         public string? sungurTipi { get; set; }
         public katagore katagore { get; set; }
+        [ForeignKey("AmenbanalId")]
         public int AdmenbanalId { get; set; }
         public OturmaOdasi oturma { get; set; }
         public YatmaOdasi yatma { get; set; }
         public CocukOdasi cocuk { get; set; }
         public YemekOdasi yemek { get; set; }
         public Degerler deger { get; set; }
-       
-        public List<Buyutlar> ListofBuyut { get; set; }
-        public List<FiyatEntity> Listoffiyat { get; set; }
-        public List<FotoEntity> Listoffoto { get; set; }
+
+        public virtual List<Buyutlar> ListofBuyut { get; set; } = new List<Buyutlar>();
+        public virtual List<FiyatEntity> Listoffiyat { get; set; } = new List<FiyatEntity>();
+        public virtual List<FotoEntity> Listoffoto { get; set; } = new List<FotoEntity>();
         public AdmenbanalEntity Admenbanal { get; set; }
-        public List<alışverişEntity> Listofalışveriş { get; set; }
+        public List<alışverişEntity> Listofalışveriş { get; set; } = new List<alışverişEntity>();   
     }
 
 

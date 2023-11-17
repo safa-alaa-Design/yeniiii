@@ -1,5 +1,7 @@
-﻿
+﻿@using Microsoft.AspNetCore.Identity
 
+@inject SignInManager<AplicationUser> SignInManager
+@inject UserManager<AplicationUser> UserManager
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +32,25 @@
             <li><a asp-controller="Home" asp-action="Index">Home</a></li>
             <li><a href="#shop">shop</a></li>
             <li><a asp-controller="about" asp-action="about">About</a></li>
-            <li><a asp-controller="Roles" asp-action="Index">Admin banal</a></li>
+            @if (SignInManager.IsSignedIn(User))
+         {
+      
+            @if (User.IsInRole("ADMIN"))
+           {
+            <li class="nav-item">
+                <a id="admin" class="nav-link text-dark" asp-controller="OturmaOdasi" asp-action="Index" title="Manage">Admin Panel</a>
+            </li>
+            }
+         
+
+                @if ( User.IsInRole("SATICI"))
+                {
+                    <li class="nav-item">
+                        <a id="admin" class="nav-link text-dark" asp-controller="OturmaOdasi" asp-action="Index" title="Manage">Admin Panel</a>
+                    </li>
+                }
+            }
+    
             <li><a href="#new"><i class='bx bx-heart'></i></a></li>
             <li><a  asp-controller="sepet" asp-action="sepet"><i class='bx bx-shopping-bag'></i></a></li>
            
