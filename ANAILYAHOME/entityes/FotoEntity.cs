@@ -8,6 +8,7 @@ namespace ANAILYAHOME.entityes
     {
         [Key]
         public int id { get; set; }
+     
         public string foto { get; set; }
         public int UrunId { get; set; }
         public urunEntity urun { get; set; }

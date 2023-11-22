@@ -26,9 +26,12 @@ function DeleteItem(btn) {
         table = document.getElementById('boyutTable');
 
 
-
+    
     var rows = table.getElementsByTagName('tr');
-       
+    if (rows.length == 2) {
+        alert("tis item");
+        return;
+    }
 
     var btnIdx = btn.id.replaceAll('btnremove-', '');
     /* var idOfIsDeleted = btnIdx + "__IsDeleted";*/
@@ -42,20 +45,35 @@ function DeleteItem(btn) {
     }
     else if (btn.id.indexOf("fiyat") > 0) {
         btnIdx = btn.id.replaceAll('btnremovefiyat-', '');
-        $(btn).closest('tr').hide();
+       
+
     }
 
     var idOfIsDeleted = btnIdx + "__IsDeleted";
 
-    if (btn.id.indexOf("foto") > 0)
+    if (btn.id.indexOf("foto") > 0) {
         idOfIsDeleted = btnIdx + "__IsHidden";
 
-    else if (btn.id.indexOf("fiyat") > 0)
+    }
+
+    else if (btn.id.indexOf("fiyat") > 0) {
+     
         idOfIsDeleted = btnIdx + "__IsHidden";
+
+        $(btn).closest('tr').hide();
+    }
+       
+     
+
+   
+
+ 
 
     var hidIsDelId = document.querySelector("[id$='" + idOfIsDeleted + "']").id;
     document.getElementById(hidIsDelId).value = "true";
+
     $(btn).closest('tr').hide();
+
 
     //$(btn).closest('tr').remove();
 

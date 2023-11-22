@@ -1,5 +1,6 @@
 ﻿using ANAILYAHOME.Models;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ANAILYAHOME.entityes
 {
@@ -15,9 +16,7 @@ namespace ANAILYAHOME.entityes
         public yatmafiyatler yatmafiyat { get; set; }
         public cocukfiyatler cocukfiyat { get; set; }
         public yemekfiyatler yemekfiyat { get; set; }
-
-
-
+       
     }
 
 

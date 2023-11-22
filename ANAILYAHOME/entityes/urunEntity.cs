@@ -46,7 +46,6 @@ namespace ANAILYAHOME.Models
         public string? ahsapTipi { get; set; }
         public string? sungurTipi { get; set; }
         public katagore katagore { get; set; }
-        [ForeignKey("AmenbanalId")]
         public int AdmenbanalId { get; set; }
         public OturmaOdasi oturma { get; set; }
         public YatmaOdasi yatma { get; set; }

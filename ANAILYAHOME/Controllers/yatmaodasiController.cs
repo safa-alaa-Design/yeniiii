@@ -35,33 +35,134 @@ namespace ANAILYAHOME.Controllers
             urun.Listoffiyat.Add(new FiyatEntity() { id = 1 });
             return View("Create", urun);
 
-          
-         
+
+
         }
         [HttpPost]
         public IActionResult Create(urunEntity p)
         {
-           
-            
-                p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
 
 
-                p.AdmenbanalId = 1;
-        
-                var entity = new YatmaOdasi
-                {
+            p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
 
-                    dulapKapiTipi = p.yatma.dulapKapiTipi,
-                    çekmeceliSayi = p.yatma.çekmeceliSayi,
-                    yatakTacRengi = p.yatma.yatakTacRengi,
-                    urun = new urunEntity(),
-                };
-            
+
+
+            p.AdmenbanalId = 1;
+
+            var entity = new YatmaOdasi
+            {
+
+                dulapKapiTipi = p.yatma.dulapKapiTipi,
+                çekmeceliSayi = p.yatma.çekmeceliSayi,
+                yatakTacRengi = p.yatma.yatakTacRengi,
+                urun = new urunEntity(),
+            };
+
             _db.urun.Add(p);
             _db.SaveChanges();
             return RedirectToAction("yatmaodasi");
         }
-        
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+
+            urunEntity entity = _db.urun
+               .Include(y => y.yatma)
+               .Include(bu => bu.ListofBuyut)
+               .Include(fo => fo.Listoffoto)
+               .Include(fi => fi.Listoffiyat)
+               .ThenInclude(d => d.yatmafiyat)
+               .Where(a => a.id == id).FirstOrDefault()!;
+            return View(entity);
+
+
+
+
+        }
+
+        [HttpPost]
+
+        public IActionResult Edit(urunEntity entity)
+        {
+            //entity.ListofBuyut = null;
+            //entity.Listoffoto = null;
+            //entity.Listoffiyat = null;
+            entity.AdmenbanalId = 1;
+
+
+
+            var yatma = _db.yatma.FirstOrDefault(i => i.UrunId == entity.id);
+            if (yatma != null)
+            _db.yatma.Remove(yatma);
+          
+
+            List<Buyutlar> buytDetail = _db.buyut.Where(d => d.UrunId == entity.id).ToList();
+            if (buytDetail != null)
+                _db.buyut.RemoveRange(buytDetail);
+               
+            List<FotoEntity> fotofDetail = _db.foto.Where(d => d.UrunId == entity.id).ToList();
+            if (fotofDetail != null)
+            _db.foto.RemoveRange(fotofDetail);
+             
+
+            List<FiyatEntity> fiyatDetail = _db.fiyat.Where(d => d.UrunId == entity.id).ToList();
+            if (fiyatDetail != null)
+           _db.fiyat.RemoveRange(fiyatDetail);
+
+
+            entity.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
+
+            _db.Attach(entity);
+            _db.Entry(entity).State = EntityState.Modified;
+
+            _db.buyut.AddRange(entity.ListofBuyut);
+            _db.foto.AddRange(entity.Listoffoto);
+            _db.fiyat.AddRange(entity.Listoffiyat);
+          
+
+            _db.urun.Update(entity);
+            _db.SaveChanges();
+            return RedirectToAction("yatmaodasi");
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+
+            urunEntity entity = _db.urun
+               .Include(y => y.yatma)
+               .Include(bu => bu.ListofBuyut)
+               .Include(fo => fo.Listoffoto)
+               .Include(fi => fi.Listoffiyat)
+               .ThenInclude(d => d.yatmafiyat)
+               .Where(a => a.id == id).FirstOrDefault()!;
+            return View(entity);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+
+        public IActionResult Delete(urunEntity model)
+        {
+            _db.Attach(model);
+            _db.Entry(model).State = EntityState.Deleted;
+
+            _db.SaveChanges();
+            return RedirectToAction("yatmaodasi");
+
+        }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -74,28 +175,6 @@ namespace ANAILYAHOME.Controllers
 
 
 
-
-
-
-        //private List<FiyatEntity> getulke() 
-        //{
-        //    List<FiyatEntity> ulkeker = _db.fiyat
-        //        .OrderBy(n => n.ulkeler)
-        //        .Select(n =>
-        //        new FiyatEntity
-        //        {
-        //            ulkeler = n.ulkeler
-        //        }).ToList();
-        //    var selektulke = new List<FiyatEntity>()
-        //    {
-
-        //    };
-
-        //    ulkeler.Insert(0, selektulke);
-        //    return ulkeker;
-
-
-        //}
 
 
     }
