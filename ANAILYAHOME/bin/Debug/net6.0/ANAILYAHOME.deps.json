@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ANAILYAHOME/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "6.0.25",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.23",
           "Microsoft.AspNetCore.Identity.UI": "6.0.23",
           "Microsoft.EntityFrameworkCore": "7.0.12",
@@ -620,6 +621,17 @@
         }
       },
       "MessagePackAnalyzer/2.1.152": {},
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.25": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.24.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+            "assemblyVersion": "6.0.25.0",
+            "fileVersion": "6.0.2523.52315"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.23": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -3118,6 +3130,13 @@
       "sha512": "sha512-uJhZlGMkXDaFYsH8V9S6o1EyvsUqB9mpU4DVBXNr0DXZVzZMhuLP1IkLj5xK3EKlaAcvkFkZv3eSvuz360wb3Q==",
       "path": "messagepackanalyzer/2.1.152",
       "hashPath": "messagepackanalyzer.2.1.152.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y4XEtl+dtAv8aJrJVI3xM45Jns/etKO7WflTrxpR0PwjxnA6C7OWnK7c6N1rjvu/BjAwL3BQcBmxhF+tDRxIIg==",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/6.0.25",
+      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.6.0.25.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.23": {
       "type": "package",

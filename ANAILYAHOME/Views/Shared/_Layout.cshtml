@@ -38,7 +38,7 @@
             @if (User.IsInRole("ADMIN"))
            {
             <li class="nav-item">
-                <a id="admin" class="nav-link text-dark" asp-controller="OturmaOdasi" asp-action="Index" title="Manage">Admin Panel</a>
+                        <a id="admin" class="nav-link text-dark" asp-controller="yatmaodasi" asp-action="yatmaodasi" title="Manage">Admin Panel</a>
             </li>
             }
          
@@ -46,7 +46,7 @@
                 @if ( User.IsInRole("SATICI"))
                 {
                     <li class="nav-item">
-                        <a id="admin" class="nav-link text-dark" asp-controller="OturmaOdasi" asp-action="Index" title="Manage">Admin Panel</a>
+                        <a id="admin" class="nav-link text-dark" asp-controller="yatmaodasi" asp-action="yatmaodasi" title="Manage">Admin Panel</a>
                     </li>
                 }
             }

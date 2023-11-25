@@ -4,6 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using ANAILYAHOME.Models;
 using ANAILYAHOME.Repository.Base;
 using ANAILYAHOME.Repository;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +27,79 @@ builder.Services.AddIdentity<AplicationUser,IdentityRole<int>>()
    .AddRoleManager<RoleManager<IdentityRole<int>>>()
    .AddDefaultUI()
    .AddDefaultTokenProviders();
+
+
+
+
+
+//cookiese_____________________
+
+builder.Services.AddRazorPages();
+
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
+})
+   .AddCookie();
+
+
+//builder.Services.ConfigureApplicationCookie(options =>
+//{
+//   options.Cookie = new()
+//    {
+//        Name = "IdentityCookie",
+//        HttpOnly = true,
+//        SameSite = SameSiteMode.Lax,
+//        SecurePolicy = CookieSecurePolicy.Always
+//    };
+//    options.SlidingExpiration = true;
+//    options.ExpireTimeSpan = TimeSpan.FromDays(30);
+//});
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    // Password settings.
+    options.Password.RequireDigit = true;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireNonAlphanumeric = true;
+    options.Password.RequireUppercase = true;
+    options.Password.RequiredLength = 6;
+    options.Password.RequiredUniqueChars = 0;
+
+    // Lockout settings.
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromDays(30);
+    options.Lockout.MaxFailedAccessAttempts = 5;
+    options.Lockout.AllowedForNewUsers = true;
+
+    // User settings.
+    options.User.AllowedUserNameCharacters =
+    "ðþýöüçÖÇÞÝÜÐabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+    options.User.RequireUniqueEmail = false;
+});
+
+//cookie
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.Cookie = new()
+    {
+        Name = "IdentityCookie",
+        HttpOnly = true,
+        SameSite = SameSiteMode.Lax,
+        SecurePolicy = CookieSecurePolicy.Always
+    };
+    // Cookie settings
+    options.Cookie.HttpOnly = true;
+    options.ExpireTimeSpan = TimeSpan.FromDays(20);
+
+    options.LoginPath = "/Identity/Account/Login";
+    options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+    options.SlidingExpiration = true;
+});
+
+
 
 //builder.Services.AddAuthorization(op =>
 //op.AddPolicy("Roladmin", p => p.RequireClaim("ADMIN", "ADMIN"))

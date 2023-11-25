@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4wbSfRsRzaszCXQS15WFz8TGivIpdLp9YVN12Bg2Ds2CVHpexS01bbx2JwCM3DvyZiENCtrGtMurzpyN0GhC4g==",
+  "dgSpecHash": "mV+Fl6I7AnWTUCafRpONWUsVApCqyRGG5fruIkZLxBpaosit06MSsLWxSjeloFdFhA3CIE6hMvNXMar73qaKDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kullanıcı\\source\\repos\\ANAILYAHOME\\creatfoto22\\ANAILYAHOME\\ANAILYAHOME.csproj",
+  "projectFilePath": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\ANAILYAHOME.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -59,6 +59,7 @@
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\Kullanıcı\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.25\\microsoft.aspnetcore.authentication.openidconnect.6.0.25.nupkg.sha512",
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.23\\microsoft.aspnetcore.cryptography.internal.6.0.23.nupkg.sha512",
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.23\\microsoft.aspnetcore.cryptography.keyderivation.6.0.23.nupkg.sha512",
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.23\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.23.nupkg.sha512",
@@ -235,7 +236,11 @@
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Kullanıcı\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Kullanıcı\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Kullanıcı\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Kullanıcı\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Kullanıcı\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Kullanıcı\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }
