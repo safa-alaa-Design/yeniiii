@@ -14,6 +14,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using ANAILYAHOME.Models;
+using ANAILYAHOME.entityes;
+
+
+using Microsoft.Extensions.Options;
+using System.Security.Claims;
 
 
 namespace ANAILYAHOME.Areas.Identity.Pages.Account
@@ -25,7 +30,7 @@ namespace ANAILYAHOME.Areas.Identity.Pages.Account
         private readonly ILogger<LoginModel> _logger;
 
         public LoginModel(SignInManager<AplicationUser> signInManager,
-            UserManager<AplicationUser> userManager, 
+            UserManager<AplicationUser> userManager,
             ILogger<LoginModel> logger)
         {
             _userManager = userManager;
@@ -70,7 +75,7 @@ namespace ANAILYAHOME.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required]
-            [Display(Name ="Your Email")]
+            [Display(Name = "Your Email")]
             public string Email { get; set; }
 
             /// <summary>
@@ -151,4 +156,27 @@ namespace ANAILYAHOME.Areas.Identity.Pages.Account
             return Page();
         }
     }
+
+
+   
+    public class CustomClaimsPrincipalFactory : UserClaimsPrincipalFactory<AplicationUser, IdentityRole<int>>
+    {
+        public CustomClaimsPrincipalFactory(UserManager<AplicationUser> userManager, RoleManager<IdentityRole<int>> roleManager,
+            IOptions<IdentityOptions> optionsAccessor)
+            : base(userManager, roleManager, optionsAccessor)
+        {
+        }
+
+
+        protected override async Task<ClaimsIdentity> GenerateClaimsAsync(AplicationUser User)
+        {
+            var id = await base.GenerateClaimsAsync(User);
+
+            //id.AddClaim(new Claim(ClaimTypes.SaticiId, ad.tostring));
+
+            return id;
+        }
+    }
+
+
 }
