@@ -159,20 +159,20 @@ namespace ANAILYAHOME.Areas.Identity.Pages.Account
 
 
    
-    public class CustomClaimsPrincipalFactory : UserClaimsPrincipalFactory<AplicationUser, IdentityRole<int>>
+    public class CustomClaimsPrincipalFactory : UserClaimsPrincipalFactory<urunEntity, IdentityRole<int>>
     {
-        public CustomClaimsPrincipalFactory(UserManager<AplicationUser> userManager, RoleManager<IdentityRole<int>> roleManager,
+        public CustomClaimsPrincipalFactory(UserManager<urunEntity> userManager, RoleManager<IdentityRole<int>> roleManager,
             IOptions<IdentityOptions> optionsAccessor)
             : base(userManager, roleManager, optionsAccessor)
         {
         }
 
 
-        protected override async Task<ClaimsIdentity> GenerateClaimsAsync(AplicationUser User)
+        protected override async Task<ClaimsIdentity> GenerateClaimsAsync(urunEntity User)
         {
             var id = await base.GenerateClaimsAsync(User);
 
-            //id.AddClaim(new Claim(ClaimTypes.SaticiId, ad.tostring));
+            //id.AddClaim(new Claim(ClaimTypes.SaticiId, User.AdmenbanalId.ToString));
 
             return id;
         }
