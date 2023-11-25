@@ -10,12 +10,12 @@ using ANAILYAHOME.Models;
 
 namespace TestCoreApp.Controllers
 {
-    [Authorize(Roles = clsRol.roleAdmin)]
+    //[Authorize("Roladmin")]
     public class RolesController : Controller
     {
         public RolesController(UserManager<AplicationUser> user, RoleManager<IdentityRole<int>> roles)
         {
-            _user = user;
+            _user = user; 
             _roles = roles;
         }
 

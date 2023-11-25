@@ -21,6 +21,7 @@ using Microsoft.Extensions.Options;
 using System.Security.Claims;
 
 
+
 namespace ANAILYAHOME.Areas.Identity.Pages.Account
 {
     public class LoginModel : PageModel
@@ -158,25 +159,26 @@ namespace ANAILYAHOME.Areas.Identity.Pages.Account
     }
 
 
-   
-    public class CustomClaimsPrincipalFactory : UserClaimsPrincipalFactory<urunEntity, IdentityRole<int>>
+
+    public class MyUserClaimsPrincipalFactory : UserClaimsPrincipalFactory<AplicationUser, IdentityRole<int>>
     {
-        public CustomClaimsPrincipalFactory(UserManager<urunEntity> userManager, RoleManager<IdentityRole<int>> roleManager,
+        public MyUserClaimsPrincipalFactory(
+            UserManager<AplicationUser> userManager,
+            RoleManager<IdentityRole<int>> roleManager,
             IOptions<IdentityOptions> optionsAccessor)
             : base(userManager, roleManager, optionsAccessor)
         {
         }
 
-
-        protected override async Task<ClaimsIdentity> GenerateClaimsAsync(urunEntity User)
+        protected override async Task<ClaimsIdentity> GenerateClaimsAsync(AplicationUser user)
         {
-            var id = await base.GenerateClaimsAsync(User);
-
-            //id.AddClaim(new Claim(ClaimTypes.SaticiId, User.AdmenbanalId.ToString));
+            var id = await base.GenerateClaimsAsync(user);
+            id.AddClaim(new Claim(ClaimTypesadmin.SaticiId, user.Admenbanal.id.ToString()));
+            id.AddClaim(new Claim(ClaimTypesadmin.UserId, user.Id.ToString()));
 
             return id;
+
         }
     }
-
 
 }

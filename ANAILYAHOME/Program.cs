@@ -34,7 +34,6 @@ builder.Services.AddIdentity<AplicationUser,IdentityRole<int>>()
 
 //cookiese_____________________
 
-builder.Services.AddRazorPages();
 
 
 builder.Services.AddAuthentication(options =>
@@ -62,14 +61,14 @@ builder.Services.Configure<IdentityOptions>(options =>
 {
     // Password settings.
     options.Password.RequireDigit = true;
-    options.Password.RequireLowercase = false;
-    options.Password.RequireNonAlphanumeric = true;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireUppercase = true;
     options.Password.RequiredLength = 6;
     options.Password.RequiredUniqueChars = 0;
 
     // Lockout settings.
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromDays(30);
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromSeconds(20);
     options.Lockout.MaxFailedAccessAttempts = 5;
     options.Lockout.AllowedForNewUsers = true;
 
@@ -92,8 +91,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     };
     // Cookie settings
     options.Cookie.HttpOnly = true;
-    options.ExpireTimeSpan = TimeSpan.FromDays(20);
-
+    options.ExpireTimeSpan = TimeSpan.FromSeconds(20);
     options.LoginPath = "/Identity/Account/Login";
     options.AccessDeniedPath = "/Identity/Account/AccessDenied";
     options.SlidingExpiration = true;
@@ -101,10 +99,25 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 
 
-//builder.Services.AddAuthorization(op =>
+
+//builder.services.AddAuthorization(options =>
+//{
+//    options.AddPolicy(DefaultAuthorizedPolicy, policy =>
+//    {
+//        policy.Requirements.Add(new TokenAuthRequirement());
+//        policy.AuthenticationSchemes = new List<string>()
+//        {
+//            CookieAuthenticationDefaults.AuthenticationScheme
+//        };
+//    });
+//});
+
+//builder.Services.AddAuthorization( op =>
 //op.AddPolicy("Roladmin", p => p.RequireClaim("ADMIN", "ADMIN"))
 //);
-//builder.Services.AddRazorPages();
+
+
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -115,6 +128,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
