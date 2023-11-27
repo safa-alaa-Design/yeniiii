@@ -6,6 +6,9 @@ using ANAILYAHOME.entityes;
 using ANAILYAHOME.Migrations;
 using System.IO;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Security.Claims;
+using System.Security.Principal;
+using Microsoft.AspNetCore.Identity;
 
 
 namespace ANAILYAHOME.Controllers
@@ -41,13 +44,10 @@ namespace ANAILYAHOME.Controllers
         [HttpPost]
         public IActionResult Create(urunEntity p)
         {
-
+            var saticiid = Convert.ToInt32(User.Claims.FirstOrDefault(i=>i.Type == "SaticiId") );
+            p.AdmenbanalId = saticiid;
 
             p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
-
-
-
-            p.AdmenbanalId = 1;
 
             var entity = new YatmaOdasi
             {
