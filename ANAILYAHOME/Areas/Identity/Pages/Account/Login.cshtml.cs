@@ -19,8 +19,7 @@ using ANAILYAHOME.entityes;
 
 using Microsoft.Extensions.Options;
 using System.Security.Claims;
-
-
+using Microsoft.EntityFrameworkCore;
 
 namespace ANAILYAHOME.Areas.Identity.Pages.Account
 {
@@ -173,8 +172,9 @@ namespace ANAILYAHOME.Areas.Identity.Pages.Account
         protected override async Task<ClaimsIdentity> GenerateClaimsAsync(AplicationUser user)
         {
             var id = await base.GenerateClaimsAsync(user);
-            id.AddClaim(new Claim(ClaimTypesadmin.SaticiId, user.Admenbanal.id.ToString()));
-            id.AddClaim(new Claim(ClaimTypesadmin.UserId, user.Id.ToString()));
+            var appUser = base.UserManager.Users.Include(x => x.Admenbanal).ThenInclude(x => x.Listofurun).FirstOrDefault(x => x.Id == user.Id);
+
+            id.AddClaim(new Claim(ClaimTypesadmin.SaticiId, appUser.Admenbanal.id.ToString()));
 
             return id;
 
