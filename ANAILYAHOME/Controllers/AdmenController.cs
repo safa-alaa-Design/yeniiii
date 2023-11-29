@@ -52,7 +52,7 @@ namespace ANAILYAHOME.Controllers
         public ActionResult fotografguncele(FotoEntity p)
         {
             var ag = c.foto.Find(p.id);
-            ag.foto = p.foto;
+            ag.FileName = p.FileName;
 
             c.SaveChanges();
             return RedirectToAction("fotograf");

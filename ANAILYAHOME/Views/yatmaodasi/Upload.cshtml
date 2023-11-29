@@ -1,4 +1,4 @@
-﻿
+﻿@model ANAILYAHOME.entityes.FotoEntity
 @{
     ViewData["Title"] = "Upload Files";
     Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
@@ -40,7 +40,7 @@
         font-weight: 600;
         color:#878a9a;
     }
-    .card .top button{
+    .card .top .btn{
         outline:0;
         border:0;
         -webkit-appearence: none;
@@ -55,11 +55,11 @@
 
 
     }
-    .card .top button:hover{
+    .card .top .btn:hover{
         opacity:inherit.8
     }
 
-   .card .top button:active {
+   .card .top .btn:active {
 
       transform:translateY(5px);
   }
@@ -152,22 +152,21 @@
 </style>
 
 
-
+<form asp-action="Upload" method="post" class="dragover">
 <div id="upload" class="card">
     <div class="top">
         <p>Darg & drop image uploading</p>
-        <button type="button">Upload</button>
-    </div>
-    <form action="/upload" method="post" class="dragover">
-        <span class="inner">Darg & drop image here or
-            <span  class="select">Browse</span> </span>
-        <input name="file" type="file" id="file" class="file" multiple />
-       
-        </form>
+        <input type="submit" value="upload" class="btn btn-primary" />
+     </div>
         <div class="container">
-            
-        </div>
+     <span class="inner">Darg & drop image here or
+     <span  class="select">Browse</span> </span>
+     <input name="file" type="file" id="file" class="file" multiple />
+       
+    
+     </div>
 </div>
+</form>
 <br>
 <a href="/yatmaodasi/Create" class="w3-bar-item w3-button"  style="background:gray;"> creat sayfa don</a>
 

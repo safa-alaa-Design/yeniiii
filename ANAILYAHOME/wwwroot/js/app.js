@@ -4,7 +4,7 @@
     container = document.querySelector('.container'),
     text = document.querySelector('.inner'),
     browse = document.querySelector('.select'),
-    input = document.querySelector('form input');
+    input = document.querySelector('form .file');
 
    browse.addEventListener('click', () => input.click());
 
@@ -68,6 +68,6 @@ from.addEventListener('drop', e => {
 })
 
 button.addEventListener('click', () => {
-    let form = new UploadFiles();
+    let form = new Upload();
     files.forEach((e, i) => form.append(`file[${i}]`,e))
 })
