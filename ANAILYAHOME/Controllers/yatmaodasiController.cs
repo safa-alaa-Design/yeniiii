@@ -9,7 +9,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Security.Claims;
 using System.Security.Principal;
 using Microsoft.AspNetCore.Identity;
-
+using ANAILYAHOME.models;
+using Microsoft.CodeAnalysis.CSharp;
 
 namespace ANAILYAHOME.Controllers
 {
@@ -17,10 +18,12 @@ namespace ANAILYAHOME.Controllers
     {
         private readonly AplicetionDbContext _db;
         private readonly IConfiguration _con;
-        public yatmaodasiController(AplicetionDbContext db, IConfiguration con)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public yatmaodasiController(AplicetionDbContext db, IConfiguration con, IWebHostEnvironment webHostEnvironment)
         {
             _db = db;
             _con = con;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public IActionResult yatmaodasi()
@@ -30,6 +33,39 @@ namespace ANAILYAHOME.Controllers
 
             return View(urun);
         }
+
+        public IActionResult Upload()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult UploadFiles(urunEntity model,int UrunId)
+        {
+           List<FotoEntity>fotoEntities = new ();
+            foreach(var file in model.Files)
+            {
+               
+                var fakeFileName=Path.GetRandomFileName();
+                FotoEntity fotoEntity = new()
+                {
+                    FileName = file.FileName,
+                    ContentType = file.ContentType,
+                    StoredFileName= fakeFileName,
+                    UrunId = UrunId,
+                };
+                var path = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", fakeFileName);
+                using FileStream fileStream = new(path, FileMode.Create);
+               file.CopyTo(fileStream);
+                
+                fotoEntities.Add(fotoEntity);
+            }
+            _db.AddRange(fotoEntities);
+            _db.SaveChanges();
+            return RedirectToAction("Create");
+        }
+
         public IActionResult Create()
         {
             urunEntity urun = new urunEntity();
@@ -44,11 +80,11 @@ namespace ANAILYAHOME.Controllers
         [HttpPost]
         public IActionResult Create(urunEntity p)
         {
-            var saticiid = Convert.ToInt32(User.Claims.FirstOrDefault(i=>i.Type == "SaticiId") );
-            p.AdmenbanalId = saticiid;
+            var saticiid = Convert.ToInt32(User.Claims.Where(c => c.Type == ClaimTypesadmin.SaticiId).Select(c => c.Value).SingleOrDefault());
+            p.AdmenbanalId = 1;
 
             p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
-
+           
             var entity = new YatmaOdasi
             {
 
