@@ -16,7 +16,10 @@ namespace ANAILYAHOME.entityes
         public yatmafiyatler yatmafiyat { get; set; }
         public cocukfiyatler cocukfiyat { get; set; }
         public yemekfiyatler yemekfiyat { get; set; }
-       
+
+        [NotMapped]
+        public bool IsHiddin { get; set; } = false;
+
     }
 
 

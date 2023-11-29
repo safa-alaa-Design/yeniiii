@@ -14,7 +14,7 @@ using ANAILYAHOME.models;
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);
-        optionsBuilder.UseSqlServer("server=LAPTOP-D4MQ1QML\\SQLEXPRESS01; database=ILYAHOME;Integrated Security=true; TrustServerCertificate=true; ");
+        optionsBuilder.UseSqlServer("server=ALAA_SHAHROR\\SQLEXPRESS02; database=ILYAHOME;Integrated Security=true; TrustServerCertificate=true; ");
     }
     public AplicetionDbContext()
     {

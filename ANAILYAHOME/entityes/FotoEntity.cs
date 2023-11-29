@@ -16,6 +16,8 @@ namespace ANAILYAHOME.entityes
         public string? StoredFileName {  get; set; }
         public int UrunId { get; set; }
         public urunEntity urun { get; set; }
-     
+
+      
+
     }
 }

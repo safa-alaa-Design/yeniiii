@@ -34,45 +34,52 @@ namespace ANAILYAHOME.Controllers
             return View(urun);
         }
 
-        public IActionResult Upload()
+        public IActionResult Upload(int urunId)
         {
-            
+
+            ViewBag.urunId = urunId;
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upload(FotoEntity model,int UrunId)
+        public IActionResult Upload(List<IFormFile> file, int urunId)
         {
-            List<FotoEntity> fotoEntities = new();
-            foreach (var file in model.Files)
-            {
+            //var fakeFileName = Path.GetRandomFileName();
+            //    var entity = new FotoEntity
+            //    {
+            //        UrunId = urunId,
+            //        FileName = file.FileName,
+            //        ContentType = file.ContentType,
+            //        StoredFileName = fakeFileName,
 
+            //    };
+            List<FotoEntity> fotoEntities = new();
+            foreach (var entitiy in file)
+            {
                 var fakeFileName = Path.GetRandomFileName();
-                FotoEntity fotoEntity = new()
+                fotoEntities.Add(new FotoEntity
                 {
-                    FileName = file.FileName,
-                    ContentType = file.ContentType,
+                    FileName = entitiy.FileName,
+                    ContentType = entitiy.ContentType,
                     StoredFileName = fakeFileName,
-                    UrunId = UrunId,
-                };
+                    UrunId = urunId
+                });
                 var path = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", fakeFileName);
                 using FileStream fileStream = new(path, FileMode.Create);
-                file.CopyTo(fileStream);
+                entitiy.CopyTo(fileStream);
 
-                fotoEntities.Add(fotoEntity);
             }
+
             _db.AddRange(fotoEntities);
             _db.SaveChanges();
-            return RedirectToAction("Create");
-            
+            return RedirectToAction("yatmaodasi");
         }
 
         public IActionResult Create()
         {
             urunEntity urun = new urunEntity();
             urun.ListofBuyut.Add(new Buyutlar() { id = 1 });
-            urun.Listoffoto.Add(new FotoEntity() { id = 1 });
             urun.Listoffiyat.Add(new FiyatEntity() { id = 1 });
             return View("Create", urun);
 
@@ -86,14 +93,18 @@ namespace ANAILYAHOME.Controllers
             p.AdmenbanalId = 1;
 
             p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
-           
+            p.Listoffiyat.RemoveAll(n => n.IsHiddin == true);
+
+            p.katagore = katagore.YatmaOdası;
             var entity = new YatmaOdasi
             {
 
                 dulapKapiTipi = p.yatma.dulapKapiTipi,
                 çekmeceliSayi = p.yatma.çekmeceliSayi,
                 yatakTacRengi = p.yatma.yatakTacRengi,
-                urun = new urunEntity(),
+
+                urun = new urunEntity()
+
             };
 
             _db.urun.Add(p);
@@ -108,7 +119,6 @@ namespace ANAILYAHOME.Controllers
             urunEntity entity = _db.urun
                .Include(y => y.yatma)
                .Include(bu => bu.ListofBuyut)
-               .Include(fo => fo.Listoffoto)
                .Include(fi => fi.Listoffiyat)
                .ThenInclude(d => d.yatmafiyat)
                .Where(a => a.id == id).FirstOrDefault()!;
@@ -132,32 +142,27 @@ namespace ANAILYAHOME.Controllers
 
             var yatma = _db.yatma.FirstOrDefault(i => i.UrunId == entity.id);
             if (yatma != null)
-            _db.yatma.Remove(yatma);
-          
+                _db.yatma.Remove(yatma);
+
 
             List<Buyutlar> buytDetail = _db.buyut.Where(d => d.UrunId == entity.id).ToList();
             if (buytDetail != null)
                 _db.buyut.RemoveRange(buytDetail);
-               
-            List<FotoEntity> fotofDetail = _db.foto.Where(d => d.UrunId == entity.id).ToList();
-            if (fotofDetail != null)
-            _db.foto.RemoveRange(fotofDetail);
-             
 
             List<FiyatEntity> fiyatDetail = _db.fiyat.Where(d => d.UrunId == entity.id).ToList();
             if (fiyatDetail != null)
-           _db.fiyat.RemoveRange(fiyatDetail);
+                _db.fiyat.RemoveRange(fiyatDetail);
 
 
             entity.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
+            entity.Listoffiyat.RemoveAll(n => n.IsHiddin == true);
 
             _db.Attach(entity);
             _db.Entry(entity).State = EntityState.Modified;
 
             _db.buyut.AddRange(entity.ListofBuyut);
-            _db.foto.AddRange(entity.Listoffoto);
             _db.fiyat.AddRange(entity.Listoffiyat);
-          
+
 
             _db.urun.Update(entity);
             _db.SaveChanges();
@@ -171,7 +176,6 @@ namespace ANAILYAHOME.Controllers
             urunEntity entity = _db.urun
                .Include(y => y.yatma)
                .Include(bu => bu.ListofBuyut)
-               .Include(fo => fo.Listoffoto)
                .Include(fi => fi.Listoffiyat)
                .ThenInclude(d => d.yatmafiyat)
                .Where(a => a.id == id).FirstOrDefault()!;

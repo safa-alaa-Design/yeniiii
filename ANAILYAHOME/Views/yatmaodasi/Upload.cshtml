@@ -1,5 +1,4 @@
-﻿@model ANAILYAHOME.entityes.FotoEntity
-@{
+﻿@{
     ViewData["Title"] = "Upload Files";
     Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
 }
@@ -16,10 +15,11 @@
         
     </div>
 </div> *@
-<link href=" ~ /css/creatstyle.css" rel="stylesheet" />
+
 <style>
     .card {
-        width: 400px;
+        width: 80%;
+        margin:auto;
         height: auto;
         padding: 15px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -40,33 +40,37 @@
         font-weight: 600;
         color:#878a9a;
     }
-    .card .top .btn{
+    .card  button{
         outline:0;
         border:0;
         -webkit-appearence: none;
         background:#5256ad;
         color:#fff;
-        border-radius:4 px;
+        border-radius:3px;
         transform:0.3s;
         cursor: pointer;
         box-shadow:0 0 5px rgba(0,0,0,0.15);
         font-size:inherit.8rem;
         padding:8px 13px;
+       position:absolute;
+       top:70px;
+       left:4px;
+
 
 
     }
-    .card .top .btn:hover{
+    .card  button:hover{
         opacity:inherit.8
     }
 
-   .card .top .btn:active {
+   .card  button:active {
 
       transform:translateY(5px);
   }
 
    form{
        width:100%;
-       height:160px;
+       height:40vh;
        border-radius:5px;
        border:2px dashed #d5d5e1;
        color:#c8c9dd;
@@ -76,9 +80,12 @@
        background:#dfe3f259;
        display:flex;
        justify-content:center;
+       flex-wrap :nowrap;
        align-items:center;
        user-select:none;
        margin-top:20px;
+       padding-top:10px;
+       overflow:auto;
 
   }
 
@@ -88,17 +95,16 @@
       cursor:pointer;
   }
 
+  form .inner{
+     margin-left: 5px;
+     margin-top:-150px;
+  }
+
  form input {
      display:none;
   }
 
-    form .dragover{
-    border-style:solid;
-    font-size:2rem;
-    color:#c8c9dd;
-    font-weight:600;
-    background:rgba(0,0,0,0.34);
-        }
+  
 
     .container{
         width:100%;
@@ -122,7 +128,8 @@
             overflow:hidden;
             position:relative;
             margin-bottom:7px;
-            margin-right:7px;
+            margin-right:12px;
+            margin-top: 30px;
 
 
 
@@ -152,25 +159,58 @@
 </style>
 
 
-<form asp-action="Upload" method="post" class="dragover">
-<div id="upload" class="card">
+
+<div class="card">
     <div class="top">
         <p>Darg & drop image uploading</p>
-        <input type="submit" value="upload" class="btn btn-primary" />
-     </div>
-        <div class="container">
-     <span class="inner">Darg & drop image here or
-     <span  class="select">Browse</span> </span>
-     <input name="file" type="file" id="file" class="file" multiple />
-       
-    
-     </div>
-</div>
-</form>
-<br>
-<a href="/yatmaodasi/Create" class="w3-bar-item w3-button"  style="background:gray;"> creat sayfa don</a>
+    </div>
+   <form asp-action="Upload" asp-route-urunId="@ViewBag.urunId" method="post" class="dragover" enctype="multipart/form-data">
+     <div class="form-group">
+            <input name="file" type="file" class="form-control" multiple
+             />
+        <button type="submit">Upload</button>
+    </div>
 
+   </form>
+
+</div>
 <script src="~/js/app.js"></script>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* 
+<div class="card">
+    <div class="top">
+        <p>Darg & drop image uploading</p>
+    </div>
+    <form asp-action="Upload" asp-route-urunId="@ViewBag.urunId" method="post" class="dragover" enctype="multipart/form-data">
+        <div class="form-group">
+            <span class="inner">
+                Darg & drop image uploading
+                <span class="select">Browse</span>
+            </span>
+            <input name="file" type="file" class="file" multiple />
+            <button type="submit">Upload</button>
+            <br><br>
+            <div class="container">
+            </div>
+        </div>
+    </form>
+    @*  <div class="container">
+    </div>
+    
+</div> *@

@@ -11557,11 +11557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\ANAILYAHOME.csproj",
+      "projectUniqueName": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\ANAILYAHOME.csproj",
       "projectName": "ANAILYAHOME",
-      "projectPath": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\ANAILYAHOME.csproj",
+      "projectPath": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\ANAILYAHOME.csproj",
       "packagesPath": "C:\\Users\\Kullanıcı\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\obj\\",
+      "outputPath": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kullanıcı\\AppData\\Roaming\\NuGet\\NuGet.Config",

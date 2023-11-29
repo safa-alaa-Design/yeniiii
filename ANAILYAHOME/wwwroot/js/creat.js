@@ -15,18 +15,14 @@ $(".custom-file-input").on("change", function () {
 
 function DeleteItem(btn) {
     var table = document.getElementById('boyutTable');
-
-    if (btn.id.indexOf("foto") > 0)
-        table = document.getElementById('fotoTable');
-
-    else if (btn.id.indexOf("fiyat") > 0)
+    if (btn.id.indexOf("fiyat") > 0)
         table = document.getElementById('fiyatTable');
 
     else
         table = document.getElementById('boyutTable');
 
 
-    
+
     var rows = table.getElementsByTagName('tr');
     if (rows.length == 2) {
         alert("tis item");
@@ -38,38 +34,20 @@ function DeleteItem(btn) {
 
 
 
-
-    if (btn.id.indexOf("foto") > 0) {
-        btnIdx = btn.id.replaceAll('btnremovefoto-', '');
-        $(btn).closest('tr').hide();
-    }
-    else if (btn.id.indexOf("fiyat") > 0) {
+    if (btn.id.indexOf("fiyat") > 0) {
         btnIdx = btn.id.replaceAll('btnremovefiyat-', '');
-       
 
     }
 
     var idOfIsDeleted = btnIdx + "__IsDeleted";
 
-    if (btn.id.indexOf("foto") > 0) {
-        idOfIsDeleted = btnIdx + "__IsHidden";
+    if (btn.id.indexOf("fiyat") > 0)
+        idOfIsDeleted = btnIdx + "__IsHiddin";
 
-    }
-
-    else if (btn.id.indexOf("fiyat") > 0) {
-     
-        idOfIsDeleted = btnIdx + "__IsHidden";
-
-        $(btn).closest('tr').hide();
-    }
-       
-     
-
-   
-
- 
 
     var hidIsDelId = document.querySelector("[id$='" + idOfIsDeleted + "']").id;
+
+
     document.getElementById(hidIsDelId).value = "true";
 
     $(btn).closest('tr').hide();
@@ -77,24 +55,18 @@ function DeleteItem(btn) {
 
     //$(btn).closest('tr').remove();
 
-  
-      
+
+
 }
- 
+
 function AddItem(btn) {
 
-
-
-
     var table = document.getElementById('boyutTable');
-   
-     if (btn.id == 'btnfoto')
-        table = document.getElementById("fotoTable");
 
-     else if (btn.id == 'btnfiyat')
+    if (btn.id == 'btnfiyat')
         table = document.getElementById("fiyatTable");
 
-    
+
     else
         table = document.getElementById("boyutTable");
 
@@ -112,7 +84,7 @@ function AddItem(btn) {
 
     console.log('Last Row Idx= ' + lastrowIdx)
     console.log('Last Row Idx= ' + nextrowIdx)
- 
+
 
     rowOuterHtml = rowOuterHtml.replaceAll('_' + lastrowIdx + '_', '_' + nextrowIdx + '_');
     rowOuterHtml = rowOuterHtml.replaceAll('[' + lastrowIdx + ']', '[' + nextrowIdx + ']');
@@ -135,10 +107,10 @@ function AddItem(btn) {
 
 
     //var table = document.getElementById('boyutTable');
-   
+
     //if (btn.id == 'btnfoto') 
     //    table = document.getElementById("fotoTable");
-      
+
     //else
     //    table = document.getElementById("boyutTable");
 
@@ -165,11 +137,10 @@ function AddItem(btn) {
     //var btnAddID = btn.id;
     //var btnDeleteid = btnAddID.replaceAll('addbtn', 'btnremove');
 
- 
+
 
 
 }
 
 
 
-           

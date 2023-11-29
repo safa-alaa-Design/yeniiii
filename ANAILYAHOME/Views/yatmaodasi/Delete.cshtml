@@ -55,7 +55,7 @@
                 <input asp-for="yatma.yatakTacRengi" class="form-control" />
                 <span asp-validation-for="yatma.yatakTacRengi" class="text-danger"></span>
             </div>
-          
+
             <br>
             <br>
 
@@ -68,7 +68,7 @@
                             <th>Genişlik</th>
                             <th>Yukseklik</th>
                             <th>Derinlik</th>
-                           
+
                         </tr>
 
                     </thead>
@@ -97,7 +97,6 @@
 
                 </table>
             </div>
-            <input type="hidden" id="hdnLastIndex" value="0" />
             <br>
             <br>
 
@@ -108,7 +107,7 @@
                         <tr>
 
                             <th>foto</th>
-                           
+
                         </tr>
 
                     </thead>
@@ -121,9 +120,9 @@
 
                                     <div class="mb-3">
 
-                                        <input type="file" class="form-control" asp-for="Listoffoto[i].foto" />
+                                        <input type="file" class="form-control" asp-for="Listoffoto[i].FileName" />
                                         <small class="form-text text-muted">only .jpg, .jpe, .png file are allowed </small>
-                                        <span asp-validation-for="Listoffoto[i].foto" class="text-danger"></span>
+                                        <span asp-validation-for="Listoffoto[i].FileName" class="text-danger"></span>
                                     </div>
                                 </td>
 
@@ -133,12 +132,11 @@
 
                 </table>
             </div>
-            <input type="hidden" id="hdnLastIndex" value="0" />
+
+
+            <br>
+            <br>
             @* fiyatlar*@
-
-            <br>
-            <br>
-
             <div class=" col-12 ml-2 ">
 
                 <table id="fiyatTable" class="table table-borderless table-sm mb-0 pb-0 border codetable codetable1">
@@ -240,7 +238,7 @@
     }
     @*//لا يتم تحميل الصفحه اذا ما تعبت الانبةتات*@
     <partial name="_ValidationScriptsPartial" />
-    }
+}
 
 
 
@@ -268,7 +266,7 @@
 
 
 
-    @*
+@*
 
 
 
