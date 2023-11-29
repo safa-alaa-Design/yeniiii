@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "73m8CnbSB0PW9543mSbdUveeOEEU0WDo+PrkruhWeXU=",
+  "Hash": "DPBfTsjUabVGFm+woWyTViAzPu1lEjcrvYvfsbedMf8=",
   "Source": "ANAILYAHOME",
   "BasePath": "_content/ANAILYAHOME",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ANAILYAHOME\\wwwroot",
       "Source": "ANAILYAHOME",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\Kullanıcı\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ANAILYAHOME.styles.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ANAILYAHOME.styles.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "ANAILYAHOME.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ANAILYAHOME.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ANAILYAHOME.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ANAILYAHOME.bundle.scp.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ANAILYAHOME.bundle.scp.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "ANAILYAHOME.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ANAILYAHOME.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ANAILYAHOME.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\background.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\background.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/background.jpg",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\background.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\background3.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\background3.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/background3.jpg",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\background3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\background4.png",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\background4.png",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/background4.png",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\background4.png"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\bg.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\bg.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/bg.jpg",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\freeshop.jpeg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\freeshop.jpeg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/feachier/freeshop.jpeg",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\feachier\\freeshop.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\Happy Sell2jpeg.jpeg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\Happy Sell2jpeg.jpeg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/feachier/Happy Sell2jpeg.jpeg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\feachier\\Happy Sell2jpeg.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\istockphoto-1314458685-612x612.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\istockphoto-1314458685-612x612.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/feachier/istockphoto-1314458685-612x612.jpg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\feachier\\istockphoto-1314458685-612x612.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\onlineshop.jpeg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\onlineshop.jpeg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/feachier/onlineshop.jpeg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\feachier\\onlineshop.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\Promotions.jpeg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\Promotions.jpeg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/feachier/Promotions.jpeg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\feachier\\Promotions.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\support.png",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\support.png",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/feachier/support.png",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\feachier\\support.png"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\logo.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\logo.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/logo.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\logo.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\logoilya.png",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\logoilya.png",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/logoilya.png",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\logoilya.png"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\new1.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\new1.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/new1.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\new1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\new2.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\new2.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/new2.jpg",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\new2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\new3.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\new3.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/new3.jpg",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\new3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\p1.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\p1.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/p1.jpg",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\p1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\p2.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\p2.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/p2.jpg",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\p2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\p3.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\p3.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/p3.jpg",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\p3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\p4.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\p4.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/p4.jpg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\p4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\p5.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\p5.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/p5.jpg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\p5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\p6.jpg",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\p6.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/p6.jpg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\p6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\img\\tesla.png",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\img\\tesla.png",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/img/tesla.png",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\tesla.png"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\Mobilya.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\Mobilya.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/Mobilya.css",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Mobilya.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\css\\style.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\favicon.ico",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1670,10 +1670,67 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\js\\creat.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\img\\foto.jpg",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
+      "BasePath": "_content/ANAILYAHOME",
+      "RelativePath": "img/foto.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\foto.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\img\\indir.jpeg",
+      "SourceId": "ANAILYAHOME",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
+      "BasePath": "_content/ANAILYAHOME",
+      "RelativePath": "img/indir.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\indir.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\js\\app.js",
+      "SourceId": "ANAILYAHOME",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
+      "BasePath": "_content/ANAILYAHOME",
+      "RelativePath": "js/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\js\\creat.js",
+      "SourceId": "ANAILYAHOME",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "js/creat.js",
       "AssetKind": "All",
@@ -1689,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\js\\creat.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\js\\Mobilya.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\js\\Mobilya.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "js/Mobilya.js",
       "AssetKind": "All",
@@ -1708,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Mobilya.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1727,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1746,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1765,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1784,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1803,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1822,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1841,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1860,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1879,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1898,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1917,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1936,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1955,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1974,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1993,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2012,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2031,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2050,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2069,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2088,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2107,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2126,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2145,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2164,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2183,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2202,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2221,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2240,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2259,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2278,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2297,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2316,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2335,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2354,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2373,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2392,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2411,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2430,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2449,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2468,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2487,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2506,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2525,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2544,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2563,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2582,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2601,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2620,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2639,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2658,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2677,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2696,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2715,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2734,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2753,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2772,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ANAILYAHOME",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
       "BasePath": "_content/ANAILYAHOME",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2789,6 +2846,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\uploads\\fp5hetr0.3we",
+      "SourceId": "ANAILYAHOME",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
+      "BasePath": "_content/ANAILYAHOME",
+      "RelativePath": "uploads/fp5hetr0.3we",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\fp5hetr0.3we"
+    },
+    {
+      "Identity": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\uploads\\th4q1kxt.rnm",
+      "SourceId": "ANAILYAHOME",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\wwwroot\\",
+      "BasePath": "_content/ANAILYAHOME",
+      "RelativePath": "uploads/th4q1kxt.rnm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\th4q1kxt.rnm"
     }
   ]
 }

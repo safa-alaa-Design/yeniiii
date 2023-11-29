@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\ANAILYAHOME.csproj": {}
+    "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\ANAILYAHOME.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\ANAILYAHOME.csproj": {
+    "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\ANAILYAHOME.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\ANAILYAHOME.csproj",
+        "projectUniqueName": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\ANAILYAHOME.csproj",
         "projectName": "ANAILYAHOME",
-        "projectPath": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\ANAILYAHOME.csproj",
+        "projectPath": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\ANAILYAHOME.csproj",
         "packagesPath": "C:\\Users\\Kullanıcı\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\obj\\",
+        "outputPath": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kullanıcı\\AppData\\Roaming\\NuGet\\NuGet.Config",

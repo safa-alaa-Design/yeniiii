@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mV+Fl6I7AnWTUCafRpONWUsVApCqyRGG5fruIkZLxBpaosit06MSsLWxSjeloFdFhA3CIE6hMvNXMar73qaKDA==",
+  "dgSpecHash": "eL/SnAHuMYJm1GizDdmVOAvtqx2Z92RbVBOzKCXhnC5GTEYtjjDejI/2i6hcPKTrAP6rPkcMuIjnCBXbHf7Wcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kullanıcı\\Source\\Repos\\push-update\\ANAILYAHOME\\ANAILYAHOME.csproj",
+  "projectFilePath": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto11\\ANAILYAHOME\\ANAILYAHOME.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

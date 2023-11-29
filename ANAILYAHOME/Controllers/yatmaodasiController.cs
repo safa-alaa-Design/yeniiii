@@ -43,27 +43,28 @@ namespace ANAILYAHOME.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult UploadFiles(urunEntity model,int UrunId)
         {
-           List<FotoEntity>fotoEntities = new ();
-            foreach(var file in model.Files)
-            {
-               
-                var fakeFileName=Path.GetRandomFileName();
-                FotoEntity fotoEntity = new()
-                {
-                    FileName = file.FileName,
-                    ContentType = file.ContentType,
-                    StoredFileName= fakeFileName,
-                    UrunId = UrunId,
-                };
-                var path = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", fakeFileName);
-                using FileStream fileStream = new(path, FileMode.Create);
-               file.CopyTo(fileStream);
-                
-                fotoEntities.Add(fotoEntity);
-            }
-            _db.AddRange(fotoEntities);
-            _db.SaveChanges();
-            return RedirectToAction("Create");
+            //List<FotoEntity>fotoEntities = new ();
+            //foreach(var file in model.Files)
+            //{
+
+            //    var fakeFileName=Path.GetRandomFileName();
+            //    FotoEntity fotoEntity = new()
+            //    {
+            //        FileName = file.FileName,
+            //        ContentType = file.ContentType,
+            //        StoredFileName= fakeFileName,
+            //        UrunId = UrunId,
+            //    };
+            //    var path = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", fakeFileName);
+            //    using FileStream fileStream = new(path, FileMode.Create);
+            //   file.CopyTo(fileStream);
+
+            //    fotoEntities.Add(fotoEntity);
+            //}
+            //_db.AddRange(fotoEntities);
+            //_db.SaveChanges();
+            //return RedirectToAction("Create");
+            return View(model);
         }
 
         public IActionResult Create()
