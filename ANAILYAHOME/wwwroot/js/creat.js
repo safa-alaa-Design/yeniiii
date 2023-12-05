@@ -34,16 +34,15 @@ function DeleteItem(btn) {
 
 
 
-    if (btn.id.indexOf("fiyat") > 0) {
+    if (btn.id.indexOf("fiyat") > 0) 
         btnIdx = btn.id.replaceAll('btnremovefiyat-', '');
 
-    }
+    
 
     var idOfIsDeleted = btnIdx + "__IsDeleted";
 
     if (btn.id.indexOf("fiyat") > 0)
         idOfIsDeleted = btnIdx + "__IsHiddin";
-
 
     var hidIsDelId = document.querySelector("[id$='" + idOfIsDeleted + "']").id;
 

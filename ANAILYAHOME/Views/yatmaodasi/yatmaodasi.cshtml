@@ -1,4 +1,6 @@
-﻿@model IEnumerable<ANAILYAHOME.Models.urunEntity>
+﻿@using ANAILYAHOME.models;
+@using ANAILYAHOME.entityes;
+@model IEnumerable<YatmaOdasi>
 
 @{
     ViewData["Title"] = "yatmaodasi";
@@ -6,7 +8,7 @@
 }
 
 
-<h1>yatmaodasi</h1>
+<h1 style="margin-top:-33px;margin-bottom:20px">Yatma Odası</h1>
 
 <p>
     <a asp-action="Create" class="btn btn-success">Create New</a>
@@ -15,19 +17,19 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.urunKod)
+                @Html.DisplayNameFor(model => model.urun.urunKod)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.urunAdı)
+                @Html.DisplayNameFor(model => model.urun.urunAdı)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.tanım)
+                @Html.DisplayNameFor(model => model.urun.tanım)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ahsapTipi)
+                @Html.DisplayNameFor(model => model.urun.ahsapTipi)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.sungurTipi)
+                @Html.DisplayNameFor(model => model.urun.sungurTipi)
             </th>
            
             <th></th>
@@ -37,19 +39,19 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.urunKod)
+                    @Html.DisplayFor(modelItem => item.urun.urunKod)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.urunAdı)
+                    @Html.DisplayFor(modelItem => item.urun.urunAdı)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.tanım)
+                    @Html.DisplayFor(modelItem => item.urun.tanım)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ahsapTipi)
+                    @Html.DisplayFor(modelItem => item.urun.ahsapTipi)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.sungurTipi)
+                    @Html.DisplayFor(modelItem => item.urun.sungurTipi)
             </td>
           @*   <td>
                 @Html.DisplayFor(modelItem => item.katagore)
@@ -58,10 +60,10 @@
                 @Html.DisplayFor(modelItem => item.Admenbanal.id)
             </td> *@
             <td>
-                    <a asp-action="Edit" class="btn btn-info" asp-route-id="@item.id">Edit</a> 
+                    <a asp-action="Edit" class="btn btn-info" asp-route-id="@item.urun.id">Edit</a> 
  
-                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.id">Delete</a>
-                    <a asp-action="Upload" class="btn btn-success" asp-route-urunId="@item.id">foto</a>
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.urun.id">Delete</a>
+                    <a asp-action="Upload" class="btn btn-success" asp-route-urunId="@item.urun.id">foto</a>
             </td>
         </tr>
 }

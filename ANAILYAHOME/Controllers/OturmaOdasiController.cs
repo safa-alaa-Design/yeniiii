@@ -11,166 +11,193 @@ namespace ANAILYAHOME.Controllers
 {
     public class OturmaOdasiController : Controller
     {
-        public OturmaOdasiController(AplicetionDbContext db, IHostingEnvironment host)
+
+        private readonly AplicetionDbContext _db;
+        private readonly IConfiguration _con;
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public OturmaOdasiController(AplicetionDbContext db, IConfiguration con, IWebHostEnvironment webHostEnvironment)
         {
             _db = db;
-            _host = host;
+            _con = con;
+            _webHostEnvironment = webHostEnvironment;
         }
 
-        private readonly IHostingEnvironment _host;
-        private readonly AplicetionDbContext _db;
 
         public IActionResult Index()
         {
 
-            List<urunEntity> itemsList = _db.urun.Include(c => c.oturma).ToList();
+            List<OturmaOdasi> itemsList = _db.oturma.Include(c => c.urun).ToList();
           
             return View(itemsList);
         }
 
 
+        //upload
 
-        public IActionResult New()
+        public IActionResult Upload(int urunId)
         {
-            //urunEntity urunlar = new urunEntity();
-            //urunlar.ListofBuyut.Add(new Buyutlar() { id = 1 });
-            //urunlar.ListofBuyut.Add(new Buyutlar() { id = 2  });
-            //urunlar.ListofBuyut.Add(new Buyutlar() { id = 3 });
+
+            ViewBag.urunId = urunId;
             return View();
         }
 
         [HttpPost]
-        public IActionResult New(oturmaEkleModels model)
+        [ValidateAntiForgeryToken]
+        public IActionResult Upload(List<IFormFile> file, int urunId)
         {
-            //عند رفع قيمة فارغة يرجع الانبوت لفارغ
-            if (ModelState.IsValid)
+            //var fakeFileName = Path.GetRandomFileName();
+            //    var entity = new FotoEntity
+            //    {
+            //        UrunId = urunId,
+            //        FileName = file.FileName,
+            //        ContentType = file.ContentType,
+            //        StoredFileName = fakeFileName,
+
+            //    };
+            List<FotoEntity> fotoEntities = new();
+            foreach (var entitiy in file)
             {
+                var fakeFileName = Path.GetRandomFileName();
+                fotoEntities.Add(new FotoEntity
+                {
+                    FileName = entitiy.FileName,
+                    ContentType = entitiy.ContentType,
+                    StoredFileName = fakeFileName,
+                    UrunId = urunId
+                });
+                var path = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", fakeFileName);
+                using FileStream fileStream = new(path, FileMode.Create);
+                entitiy.CopyTo(fileStream);
+
+            }
+
+            _db.AddRange(fotoEntities);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+     
+        public IActionResult New()
+        {
+            urunEntity urun = new urunEntity();
+            urun.ListofBuyut.Add(new Buyutlar() { id = 1 });
+            urun.Listoffiyat.Add(new FiyatEntity() { id = 1 });
+            return View("New", urun);
+
+
+        }
+
+        [HttpPost]
+      
+            public IActionResult New(urunEntity p)
+            {
+                var saticiid = Convert.ToInt32(User.Claims.Where(c => c.Type == ClaimTypesadmin.SaticiId).Select(c => c.Value).SingleOrDefault());
+                p.AdmenbanalId = 1;
+
+                p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
+                p.Listoffiyat.RemoveAll(n => n.IsHiddin == true);
+
+                p.katagore = katagore.OturmaOdası;
                 var entity = new OturmaOdasi
                 {
-                    YatakOlmak = model.YatakOlmak,
 
 
+                    YatakOlmak = p.oturma.YatakOlmak,
 
-                    urun = new urunEntity
-                    {
-
-
-                        AdmenbanalId = 1,
-                        katagore = katagore.OturmaOdası,
-                        urunKod = model.urunKod,
-                        tanım = model.tanım,
-                        urunAdı = model.urunAdı,
-                        sungurTipi = model.sungurTipi,
-                        ahsapTipi = model.ahsapTipi,
-
-
-                    }
-
+                    urun = new urunEntity()
 
                 };
 
-                _db.oturma.Add(entity);
+                _db.urun.Add(p);
                 _db.SaveChanges();
-                //رساله تمت اضافة المنتج عند اضافة المنتج
-                TempData["successData"] = "Urun Eklendi";
                 return RedirectToAction("Index");
             }
-            else
+            //GET
+            public IActionResult Edit(int id)
             {
-                return View(model);
-            }
-        }
-        //GET
-        public IActionResult Edit(int? id)
-        {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
+               urunEntity entity = _db.urun
+              .Include(y => y.oturma)
+              .Include(bu => bu.ListofBuyut)
+              .Include(fi => fi.Listoffiyat)
+              .ThenInclude(d => d.oturmafiyat)
+              .Where(a => a.id == id).FirstOrDefault()!;
+               return View(entity);
 
-            var item = _db.oturma.Include(i => i.urun).FirstOrDefault(x => x.id == id);
-            if (item == null)
-            {
-                return NotFound();
-            }
-            var model = new oturmaEkleModels
-            {
-                urunKod = item.urun.urunKod,
-                tanım = item.urun.tanım,
-                urunAdı = item.urun.urunAdı,
-                sungurTipi = item.urun.sungurTipi,
-                ahsapTipi = item.urun.ahsapTipi,
 
-            };
-            return View(model);
-        }
+
+
+            }
 
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(oturmaEkleModels model)
+        public IActionResult Edit(urunEntity entity)
         {
+            //entity.ListofBuyut = null;
+            //entity.Listoffoto = null;
+            //entity.Listoffiyat = null;
+            entity.AdmenbanalId = 1;
 
 
-            if (ModelState.IsValid)
-            {
-                var entity = _db.oturma.Include(i => i.urun).FirstOrDefault(x => x.id == model.id);
+
+            var oturma = _db.oturma.FirstOrDefault(i => i.UrunId == entity.id);
+            if (oturma != null)
+                _db.oturma.Remove(oturma);
 
 
-                entity.YatakOlmak = model.YatakOlmak;
-                entity.urun.urunAdı = model.urunAdı;
-                entity.urun.urunKod = model.urunKod;
-                entity.urun.tanım = model.tanım;
-                entity.urun.sungurTipi = model.sungurTipi;
-                entity.urun.ahsapTipi = model.ahsapTipi;
+            List<Buyutlar> buytDetail = _db.buyut.Where(d => d.UrunId == entity.id).ToList();
+            if (buytDetail != null)
+                _db.buyut.RemoveRange(buytDetail);
+
+            List<FiyatEntity> fiyatDetail = _db.fiyat.Where(d => d.UrunId == entity.id).ToList();
+            if (fiyatDetail != null)
+                _db.fiyat.RemoveRange(fiyatDetail);
 
 
-                _db.oturma.Update(entity);
-                _db.SaveChanges();
-                //رساله تم تعديل المنتج عند اضافة المنتج
-                TempData["successData"] = "Urun güncellendi";
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                return View(model);
-            }
+            entity.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
+            entity.Listoffiyat.RemoveAll(n => n.IsHiddin == true);
+
+            _db.Attach(entity);
+            _db.Entry(entity).State = EntityState.Modified;
+
+            _db.buyut.AddRange(entity.ListofBuyut);
+            _db.fiyat.AddRange(entity.Listoffiyat);
+
+
+            _db.urun.Update(entity);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
 
         //GET
-        public IActionResult Delete(int? id)
+        public IActionResult Delete(int id)
         {
 
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            var item = _db.oturma.Include(i => i.urun).FirstOrDefault(x => x.id == id);
-            if (item == null)
-            {
-                return NotFound();
-            }
-            return View(item);
+            urunEntity entity = _db.urun
+               .Include(y => y.oturma)
+               .Include(bu => bu.ListofBuyut)
+               .Include(fi => fi.Listoffiyat)
+               .ThenInclude(d => d.oturmafiyat)
+               .Where(a => a.id == id).FirstOrDefault()!;
+                return View(entity);
         }
 
-        //POST
-        [HttpPost, ActionName("Delete")]
+
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteItem(int? id)
-        {
-            var item = _db.urun.FirstOrDefault(i => i.oturma.id == id);
 
-            if (item == null)
-            {
-                return NotFound();
-            }
-            _db.Remove(item);
+
+        public IActionResult Delete(urunEntity model)
+        {
+            _db.Attach(model);
+            _db.Entry(model).State = EntityState.Deleted;
+
             _db.SaveChanges();
-            //رساله تم حذف المنتج عند اضافة المنتج
-            TempData["successData"] = "Urun silindı";
             return RedirectToAction("Index");
+
         }
+
 
     }
 }

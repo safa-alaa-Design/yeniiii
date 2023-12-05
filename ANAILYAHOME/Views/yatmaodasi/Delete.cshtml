@@ -99,43 +99,6 @@
             </div>
             <br>
             <br>
-
-            <div class=" col-12 ml-5">
-
-                <table id="fotoTable" class="table table-borderless table-sm mb-0 pb-0 border codetable">
-                    <thead>
-                        <tr>
-
-                            <th>foto</th>
-
-                        </tr>
-
-                    </thead>
-
-                    <tbody>
-                        @for (int i = 0; i < Model.Listoffoto.Count; i++)
-                        {
-                            <tr>
-                                <td>
-
-                                    <div class="mb-3">
-
-                                        <input type="file" class="form-control" asp-for="Listoffoto[i].FileName" />
-                                        <small class="form-text text-muted">only .jpg, .jpe, .png file are allowed </small>
-                                        <span asp-validation-for="Listoffoto[i].FileName" class="text-danger"></span>
-                                    </div>
-                                </td>
-
-                            </tr>
-                        }
-                    </tbody>
-
-                </table>
-            </div>
-
-
-            <br>
-            <br>
             @* fiyatlar*@
             <div class=" col-12 ml-2 ">
 
@@ -145,6 +108,7 @@
 
                             <th>Ulke</th>
                             <th>Ana Fiyat</th>
+                            <th>Ayne</th>
                             <th>yidilik</th>
                             <th>yataş</th>
                             <th>sandaliye</th>

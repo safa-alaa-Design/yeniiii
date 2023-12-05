@@ -1,0 +1,36 @@
+﻿@using ANAILYAHOME.models;
+@using ANAILYAHOME.entityes;
+@model IEnumerable<kumastipi>
+@{
+    ViewData["Title"] = "kumastipi";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+
+
+<h1 style="margin-top:-33px;margin-bottom:20px">Kumas Tipi</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Ekle</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.kumasTipi)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.kumasTipi)
+                </td>
+                <td><a href="/kumastipi/kumassil/@item.id" class="btn btn-danger">sil</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

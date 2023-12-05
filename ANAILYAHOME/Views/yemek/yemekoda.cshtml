@@ -1,0 +1,75 @@
+﻿@using ANAILYAHOME.models;
+@using ANAILYAHOME.entityes;
+@model IEnumerable<YemekOdasi>
+@{
+    ViewData["Title"] = "yemekoda";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+
+
+
+
+
+<h1 style="margin-top:-33px;margin-bottom:20px">Yemek Odasi</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.urun.urunKod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.urun.urunAdı)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.urun.tanım)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.urun.ahsapTipi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.urun.sungurTipi)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.urun.urunKod)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.urun.urunAdı)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.urun.tanım)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.urun.ahsapTipi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.urun.sungurTipi)
+                </td>
+                @*   <td>
+            @Html.DisplayFor(modelItem => item.katagore)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => item.Admenbanal.id)
+            </td> *@
+                <td>
+                    <a asp-action="Edit" asp-controller="Yemek" class="btn btn-info" asp-route-id="@item.urun.id">Edit</a>
+
+                    <a asp-action="Delete" asp-controller="Yemek" class="btn btn-danger" asp-route-id="@item.urun.id">Delete</a>
+                    <a asp-action="Upload" asp-controller="Yemek" class="btn btn-success" asp-route-urunId="@item.urun.id">foto</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -11,7 +11,7 @@
     public class kumastipi
     {
         public int id { get; set; }
-        public string? kumasTipi { get; set; }
+        public string kumasTipi { get; set; }
 
     }
     public class renkler
@@ -23,7 +23,7 @@
     public class ayagitipi
     {
         public int id { get; set; }
-        public string? ayagiTipi { get; set; }
+        public string ayagiTipi { get; set; }
 
     }
 

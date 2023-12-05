@@ -14,7 +14,7 @@ using ANAILYAHOME.models;
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);
-        optionsBuilder.UseSqlServer("server=ALAA_SHAHROR\\SQLEXPRESS02; database=ILYAHOME;Integrated Security=true; TrustServerCertificate=true; ");
+        optionsBuilder.UseSqlServer("server=LAPTOP-D4MQ1QML\\SQLEXPRESS01; database=ILYAHOME;Integrated Security=true; TrustServerCertificate=true; ");
     }
     public AplicetionDbContext()
     {
@@ -25,7 +25,11 @@ using ANAILYAHOME.models;
          public DbSet<urunEntity> urun { get; set; }
          public DbSet<OturmaOdasi> oturma { get; set; }
          public DbSet<YatmaOdasi> yatma { get; set; }
-         public DbSet<CocukOdasi> cocuk { get; set; }
+         public DbSet<renkler> renk { get; set; }
+        public DbSet<kumastipi> kumas { get; set; }
+        public DbSet<ayagitipi> ayak { get; set; }
+        public DbSet<TeslimSuresi> TeslimSure { get; set; }
+    public DbSet<CocukOdasi> cocuk { get; set; }
          public DbSet<YemekOdasi> yemek { get; set; }
          public DbSet<Degerler> deger { get; set; }
          public DbSet<FiyatEntity> fiyat { get; set; }

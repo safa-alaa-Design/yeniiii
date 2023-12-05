@@ -223,6 +223,25 @@ namespace ANAILYAHOME.Migrations
                     b.ToTable("BayiKategoriler");
                 });
 
+            modelBuilder.Entity("ANAILYAHOME.Models.TeslimSuresi", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<int>("teslimsuresi")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ulkeler")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.ToTable("TeslimSure");
+                });
+
             modelBuilder.Entity("ANAILYAHOME.Models.alışverişEntity", b =>
                 {
                     b.Property<int>("id")
@@ -258,6 +277,23 @@ namespace ANAILYAHOME.Migrations
                     b.ToTable("alışveriş");
                 });
 
+            modelBuilder.Entity("ANAILYAHOME.Models.ayagitipi", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("ayagiTipi")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("ayak");
+                });
+
             modelBuilder.Entity("ANAILYAHOME.Models.emailgonderEntity", b =>
                 {
                     b.Property<int>("id")
@@ -273,6 +309,40 @@ namespace ANAILYAHOME.Migrations
                     b.HasKey("id");
 
                     b.ToTable("emailgonder");
+                });
+
+            modelBuilder.Entity("ANAILYAHOME.Models.kumastipi", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("kumasTipi")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("kumas");
+                });
+
+            modelBuilder.Entity("ANAILYAHOME.Models.renkler", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("renk")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("renk");
                 });
 
             modelBuilder.Entity("ANAILYAHOME.Models.urunEntity", b =>
@@ -755,21 +825,21 @@ namespace ANAILYAHOME.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "d4d9a531-1ef8-46e5-b6d6-cfef2727d9cb",
+                            ConcurrencyStamp = "16c195ac-2b0b-4819-a346-5d421b0b8bf4",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = 3,
-                            ConcurrencyStamp = "625dfe29-14ce-43a2-9319-18f761b1507c",
+                            ConcurrencyStamp = "42366d53-d7a5-4809-ba70-8585c4534d38",
                             Name = "USER",
                             NormalizedName = "USER"
                         },
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "ec29a195-e4e0-4ed7-8fa7-66186587421f",
+                            ConcurrencyStamp = "94754fae-0672-4a93-b9d4-26c343be4329",
                             Name = "SATICI",
                             NormalizedName = "SATICI"
                         });

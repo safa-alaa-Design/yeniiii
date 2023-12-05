@@ -28,7 +28,7 @@ namespace ANAILYAHOME.Controllers
 
         public IActionResult yatmaodasi()
         {
-            List<urunEntity> urun = _db.urun.Include(c => c.yatma).ToList();
+            List<YatmaOdasi> urun = _db.yatma.Include(c => c.urun).ToList();
 
 
             return View(urun);
@@ -90,7 +90,7 @@ namespace ANAILYAHOME.Controllers
         public IActionResult Create(urunEntity p)
         {
             var saticiid = Convert.ToInt32(User.Claims.Where(c => c.Type == ClaimTypesadmin.SaticiId).Select(c => c.Value).SingleOrDefault());
-            p.AdmenbanalId = 1;
+            p.AdmenbanalId = saticiid;
 
             p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
             p.Listoffiyat.RemoveAll(n => n.IsHiddin == true);
