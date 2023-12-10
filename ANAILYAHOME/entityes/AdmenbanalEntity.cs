@@ -66,10 +66,13 @@ namespace ANAILYAHOME.Models
         public string Adi { get; set; }
         public string Soyadı { get; set; }
         public string email { get; set; }
-        public string Pasworde { get; set; }
+        public string saticiadres { get; set; }
         public int Telefon { get; set; }
         public string ŞirketAdres { get; set; }
         public string ŞirketAdi { get; set; }
+        public string katagore { get; set; }
+        public string sirketTanim { get; set; }
+        public string? file { get; set; }
         public int userId { get; set; }
         public AplicationUser AspNetUsers { get; set; }
         public List<urunEntity> Listofurun { get; set; }

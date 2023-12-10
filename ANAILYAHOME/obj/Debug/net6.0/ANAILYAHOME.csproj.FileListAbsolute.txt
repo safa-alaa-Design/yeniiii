@@ -5191,7 +5191,6 @@ C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\A
 C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\ANAILYAHOME.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\ANAILYAHOME.RazorAssemblyInfo.cache
 C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\ANAILYAHOME.RazorAssemblyInfo.cs
-C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\ANAILYAHOME.sourcelink.json
 C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\staticwebassets\msbuild.ANAILYAHOME.Microsoft.AspNetCore.StaticWebAssets.props
@@ -5209,3 +5208,4 @@ C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\r
 C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\ANAILYAHOME.pdb
 C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\ANAILYAHOME.genruntimeconfig.cache
 C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\ref\ANAILYAHOME.dll
+C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\obj\Debug\net6.0\ANAILYAHOME.sourcelink.json
