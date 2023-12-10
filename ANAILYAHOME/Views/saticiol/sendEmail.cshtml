@@ -5,13 +5,13 @@
 }
 <link rel="stylesheet" href="~/css/style.css" />
 
-@using(Html.BeginForm())
+@using (Html.BeginForm("sendEmail", "saticiol", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
-    @Html.AntiForgeryToken()
+   @*  @Html.AntiForgeryToken() *@
     <div class="form-horizontal container" style="margin-top:100px; ">
         <h1>Send Email</h1>
         <hr/>
-        <form asp-action="sendEmail" class="">
+        <form asp-action="sendEmail" method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group txtb">
                 <label asp-for="Kimlik" class="control-label"></label>
@@ -39,7 +39,7 @@
                 <span asp-validation-for="Telefon" class="text-danger"></span>
             </div>
             <div class="form-group txtb">
-                <label asp-for="saticiadres" class="control-label"></label>
+                <label asp-for="saticiadres" class="control-label">Adres</label>
                 <input asp-for="saticiadres" class="form-control" />
                 <span asp-validation-for="saticiadres" class="text-danger"></span>
             </div>

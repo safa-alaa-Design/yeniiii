@@ -34,6 +34,19 @@ namespace ANAILYAHOME.Controllers
             return View(urun);
         }
 
+
+        
+        /// /////////////////////////////////////upload
+      
+        public IActionResult uploadIndex()
+        {
+            List<FotoEntity> urun = _db.foto.Include(x=>x.urun).ToList();
+
+
+            return View(urun);
+        }
+
+
         public IActionResult Upload(int urunId)
         {
 
@@ -73,8 +86,22 @@ namespace ANAILYAHOME.Controllers
 
             _db.AddRange(fotoEntities);
             _db.SaveChanges();
-            return RedirectToAction("yatmaodasi");
+            return RedirectToAction("uploadIndex");
         }
+
+
+
+        public ActionResult fotosil(int id)
+        {
+            var sl = _db.foto.Find(id);
+            _db.foto.Remove(sl);
+            _db.SaveChanges();
+            return RedirectToAction("uploadIndex");
+
+
+        }
+
+        /// ////////////////////////////////////////
 
         public IActionResult Create()
         {
@@ -90,7 +117,7 @@ namespace ANAILYAHOME.Controllers
         public IActionResult Create(urunEntity p)
         {
             var saticiid = Convert.ToInt32(User.Claims.Where(c => c.Type == ClaimTypesadmin.SaticiId).Select(c => c.Value).SingleOrDefault());
-            p.AdmenbanalId = saticiid;
+            p.AdmenbanalId = 1;
 
             p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
             p.Listoffiyat.RemoveAll(n => n.IsHiddin == true);

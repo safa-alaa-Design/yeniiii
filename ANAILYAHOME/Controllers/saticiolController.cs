@@ -1,5 +1,6 @@
 ﻿using ANAILYAHOME.saticiol;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Client.Platforms.Features.DesktopOs.Kerberos;
 using System.Net;
 using System.Net.Mail;
 
@@ -15,9 +16,9 @@ namespace ANAILYAHOME.Controllers
         [HttpPost]
         public IActionResult sendEmail(saticiol.saticiol model)
         {
-            MailMessage mail = new MailMessage();
-            mail.From = new MailAddress(model.email);
-            mail.To.Add(new MailAddress("safaalhassn@gmail.com"));
+            MailMessage mail = new MailMessage(model.email , "safaalhassn50000@gmail.com");
+            //mail.From = new MailAddress(model.email);
+            //mail.To.Add(new MailAddress("safaalhassn@gmail.com"));
             mail.Subject = "hello";
             mail.IsBodyHtml = true;
             mail.Priority = MailPriority.High;
@@ -34,19 +35,19 @@ namespace ANAILYAHOME.Controllers
                             "Şirket Hakkinda :" + model.sirketTanim + "<br>" ;
             mail.Body = body;
 
-            using(SmtpClient SmtpClient = new SmtpClient())
-            {
+            SmtpClient SmtpClient = new SmtpClient();
+            
                 SmtpClient.Port = 587;
                 SmtpClient.Host = "smtp.gmail.com";
                 SmtpClient.EnableSsl = true;
-                SmtpClient.UseDefaultCredentials = false;
-                SmtpClient.Credentials = new NetworkCredential("safaalhassn@gmail.com", "QqBbSs1234567");
+                NetworkCredential Credentials = new NetworkCredential("safaalhassn50000@gmail.com", "QqBbSs1234567");
+                SmtpClient.UseDefaultCredentials = true;
+                 SmtpClient.Credentials = Credentials;
                 SmtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
-                if (SmtpClient!= null)
-                    SmtpClient.Send(mail);
-
-            }
-            return RedirectToAction("sendEmail");
+                SmtpClient.Send(mail);
+            ViewBag.Message = "mail has been send successfully";
+            return View();
+           
         }
     }
 }

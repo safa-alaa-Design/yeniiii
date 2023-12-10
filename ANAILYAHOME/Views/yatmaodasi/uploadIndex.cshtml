@@ -1,0 +1,38 @@
+﻿@using ANAILYAHOME.models;
+@using ANAILYAHOME.entityes;
+@model IEnumerable<FotoEntity>
+@{
+    ViewData["Title"] = "uploadIndex";
+    Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
+}
+
+
+<h1 style="margin-top:-33px;margin-bottom:20px">Fotografler</h1>
+
+<p>
+    <a asp-action="Upload" class="btn btn-success" asp-route-urunId="urun.id">foto</a>
+    
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Files)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Files)
+                </td>
+                <td><a href="/yatmaodasi/fotosil/@item.id" class="btn btn-danger">sil</a></td>
+            </tr>
+           
+        }
+    </tbody>
+</table>
+     
