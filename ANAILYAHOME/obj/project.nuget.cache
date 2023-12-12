@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ln+bjPtinwnOrLMhRsK1PRiyoyVNgBFLrITURdfaDSw/kJn0K8fQsw0RjqMql1ztIrksN3tZ/UQHBlZbUEO7Fg==",
+  "dgSpecHash": "MgaHpdfs5giM0/buJu9J8GW1e7dlLTgFTctaRmFvBcgY0nW3cMptcw2Pyy26BeVLFJVjhjrUBZEPUXpRXw/ihA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\ANAILYAHOME.csproj",
+  "projectFilePath": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\ANAILYAHOME.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Kullanıcı\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

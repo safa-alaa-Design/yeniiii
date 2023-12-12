@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ANAILYAHOME.Migrations
 {
     [DbContext(typeof(AplicetionDbContext))]
-    partial class AplicetionDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231213184825_hhh")]
+    partial class hhh
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -517,8 +520,14 @@ namespace ANAILYAHOME.Migrations
                     b.Property<string>("FileName")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("StoredFileName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("UrunId")
                         .HasColumnType("int");
+
+                    b.Property<byte[]>("dbImge")
+                        .HasColumnType("varbinary(max)");
 
                     b.HasKey("id");
 
@@ -833,21 +842,21 @@ namespace ANAILYAHOME.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "7d31d622-5530-4972-8399-a0244504ff16",
+                            ConcurrencyStamp = "f388608e-7808-4e80-8646-7cb7bbd38464",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = 3,
-                            ConcurrencyStamp = "f0d92fab-0189-4091-a29d-fe75b5fa629b",
+                            ConcurrencyStamp = "e1532255-33c4-4e0c-b421-36cd9d8cdc78",
                             Name = "USER",
                             NormalizedName = "USER"
                         },
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "b37c8e1f-87db-4f9b-8d6e-aaf1a8aab1a2",
+                            ConcurrencyStamp = "4e2a5484-efcf-4498-a1d8-b4becb64dbc2",
                             Name = "SATICI",
                             NormalizedName = "SATICI"
                         });

@@ -9,335 +9,339 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ANAILYAHOME
 build_property.RootNamespace = ANAILYAHOME
-build_property.ProjectDir = C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME\
+build_property.ProjectDir = C:\Users\Kullanıcı\source\repos\Edit-foto-Getxx\ANAILYAHOME\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Kullanıcı\Source\Repos\Edit-foto-Getxx\ANAILYAHOME
+build_property.MSBuildProjectDirectory = C:\Users\Kullanıcı\source\repos\Edit-foto-Getxx\ANAILYAHOME
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/about/about.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/about/about.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYWJvdXRcYWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/boyutgetir.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/boyutgetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5cYm95dXRnZXRpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/boyutler.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/boyutler.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5cYm95dXRsZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/cocukfiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/cocukfiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5cY29jdWtmaXlhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/cocukfiyatgetir.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/cocukfiyatgetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5cY29jdWtmaXlhdGdldGlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/degerfiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/degerfiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5cZGVnZXJmaXlhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/degerfiyatgetir.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/degerfiyatgetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5cZGVnZXJmaXlhdGdldGlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/fiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/fiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5cZml5YXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/fiyatgetir.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/fiyatgetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5cZml5YXRnZXRpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/oturmafiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/oturmafiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5cb3R1cm1hZml5YXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/oturmafiyatgetir.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/oturmafiyatgetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5cb3R1cm1hZml5YXRnZXRpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yatmafiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yatmafiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5ceWF0bWFmaXlhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yatmafiyatgetir.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yatmafiyatgetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5ceWF0bWFmaXlhdGdldGlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yemekfiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yemekfiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5ceWVtZWtmaXlhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yemekfiyatgetir.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yemekfiyatgetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5ceWVtZWtmaXlhdGdldGlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yeniBoyut.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yeniBoyut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5ceWVuaUJveXV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yenicocukFiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yenicocukFiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5ceWVuaWNvY3VrRml5YXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yenidegerFiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yenidegerFiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5ceWVuaWRlZ2VyRml5YXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yeniFiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yeniFiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5ceWVuaUZpeWF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yenioturmaFiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yenioturmaFiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5ceWVuaW90dXJtYUZpeWF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yeniyemekFiyat.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Admen/yeniyemekFiyat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtZW5ceWVuaXllbWVrRml5YXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/ayagitipi/ayagtipi.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/ayagitipi/ayagtipi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYXlhZ2l0aXBpXGF5YWd0aXBpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/ayagitipi/Create.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/ayagitipi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYXlhZ2l0aXBpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/CocukOdasi/cocukodasi.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/CocukOdasi/cocukodasi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29jdWtPZGFzaVxjb2N1a29kYXNpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/CocukOdasi/Create.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/CocukOdasi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29jdWtPZGFzaVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/CocukOdasi/Delete.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/CocukOdasi/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29jdWtPZGFzaVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/CocukOdasi/Edit.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/CocukOdasi/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29jdWtPZGFzaVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/CocukOdasi/Upload.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/CocukOdasi/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29jdWtPZGFzaVxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Home/Index.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/kumastipi/Create.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/kumastipi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca3VtYXN0aXBpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/kumastipi/kumastipi.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/kumastipi/kumastipi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca3VtYXN0aXBpXGt1bWFzdGlwaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/otormaodasi/oturmagetir.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/otormaodasi/oturmagetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3Rvcm1hb2Rhc2lcb3R1cm1hZ2V0aXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/otormaodasi/oturmaListesi.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/otormaodasi/oturmaListesi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3Rvcm1hb2Rhc2lcb3R1cm1hTGlzdGVzaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/otormaodasi/yeniOturma.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/otormaodasi/yeniOturma.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb3Rvcm1hb2Rhc2lceWVuaU90dXJtYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/Delete.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3R1cm1hT2Rhc2lcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/Edit.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3R1cm1hT2Rhc2lcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/Index.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3R1cm1hT2Rhc2lcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/New.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3R1cm1hT2Rhc2lcTmV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/Upload.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3R1cm1hT2Rhc2lcVXBsb2FkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/reng/Create.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/OturmaOdasi/uploadIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3R1cm1hT2Rhc2lcdXBsb2FkSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/reng/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmVuZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/reng/reng.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/reng/reng.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmVuZ1xyZW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Roles/addRoles.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Roles/addRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcYWRkUm9sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Roles/Index.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Roles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/sandalye/sandalya.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/sandalye/sandalya.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FuZGFseWVcc2FuZGFseWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/saticiol/sendEmail.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/saticiol/sendEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2F0aWNpb2xcc2VuZEVtYWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/sepet/sepet.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/sepet/sepet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2VwZXRcc2VwZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Shared/Error.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/shop/shop.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/shop/shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2hvcFxzaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/teslimsuresi/Create.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/teslimsuresi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGVzbGltc3VyZXNpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/teslimsuresi/Edit.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/teslimsuresi/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGVzbGltc3VyZXNpXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/teslimsuresi/teslimsuresi.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/teslimsuresi/teslimsuresi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGVzbGltc3VyZXNpXHRlc2xpbXN1cmVzaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/urunbilgi/urunbilgi.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/urunbilgi/urunbilgi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXJ1bmJpbGdpXHVydW5iaWxnaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/Create.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWF0bWFvZGFzaVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/Delete.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWF0bWFvZGFzaVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/Edit.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWF0bWFvZGFzaVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/Upload.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWF0bWFvZGFzaVxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/uploadIndex.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/uploadIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWF0bWFvZGFzaVx1cGxvYWRJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/yatmaodasi.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yatmaodasi/yatmaodasi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWF0bWFvZGFzaVx5YXRtYW9kYXNpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yemek/Create.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yemek/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWVtZWtcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yemek/Delete.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yemek/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWVtZWtcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yemek/Edit.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yemek/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWVtZWtcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yemek/Upload.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yemek/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWVtZWtcVXBsb2FkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/yemek/yemekoda.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/yemek/yemekoda.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NceWVtZWtceWVtZWtvZGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/_ViewImports.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/_ViewStart.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Shared/_Layout.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vj8xxdpjqz
 
-[C:/Users/Kullanıcı/Source/Repos/Edit-foto-Getxx/ANAILYAHOME/Views/Shared/_LayoutAdmen.cshtml]
+[C:/Users/Kullanıcı/source/repos/Edit-foto-Getxx/ANAILYAHOME/Views/Shared/_LayoutAdmen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1lbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-43pj55j443

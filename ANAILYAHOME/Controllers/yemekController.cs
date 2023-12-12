@@ -62,7 +62,6 @@ namespace ANAILYAHOME.Controllers
                 {
                     FileName = entitiy.FileName,
                     ContentType = entitiy.ContentType,
-                    StoredFileName = fakeFileName,
                     UrunId = urunId
                 });
                 var path = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", fakeFileName);

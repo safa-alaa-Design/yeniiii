@@ -10,14 +10,12 @@ namespace ANAILYAHOME.entityes
         public int id { get; set; }
         [NotMapped]
         public List<IFormFile> Files { get; set; }
-     
         public string? FileName { get; set; }
         public string? ContentType { get; set; }
-        public string? StoredFileName {  get; set; }
         public int UrunId { get; set; }
         public urunEntity urun { get; set; }
 
-      
-
+       
+        
     }
 }

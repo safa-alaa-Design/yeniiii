@@ -11,6 +11,7 @@ using System.Security.Principal;
 using Microsoft.AspNetCore.Identity;
 using ANAILYAHOME.models;
 using Microsoft.CodeAnalysis.CSharp;
+using System;
 
 namespace ANAILYAHOME.Controllers
 {
@@ -35,15 +36,14 @@ namespace ANAILYAHOME.Controllers
         }
 
 
-        
+
         /// /////////////////////////////////////upload
-      
-        public IActionResult uploadIndex()
+
+        public IActionResult uploadIndex(int urunId)
         {
-            List<FotoEntity> urun = _db.foto.Include(x=>x.urun).ToList();
-
-
-            return View(urun);
+           
+            List<FotoEntity> foto = _db.foto.Include(x => x.urun).ToList();
+            return View(foto);
         }
 
 
@@ -56,31 +56,34 @@ namespace ANAILYAHOME.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upload(List<IFormFile> file, int urunId)
+        public  IActionResult Upload(List<IFormFile> file, int urunId)
         {
-            //var fakeFileName = Path.GetRandomFileName();
-            //    var entity = new FotoEntity
-            //    {
-            //        UrunId = urunId,
-            //        FileName = file.FileName,
-            //        ContentType = file.ContentType,
-            //        StoredFileName = fakeFileName,
 
-            //    };
             List<FotoEntity> fotoEntities = new();
+
             foreach (var entitiy in file)
             {
-                var fakeFileName = Path.GetRandomFileName();
                 fotoEntities.Add(new FotoEntity
                 {
                     FileName = entitiy.FileName,
                     ContentType = entitiy.ContentType,
-                    StoredFileName = fakeFileName,
                     UrunId = urunId
+                    
                 });
-                var path = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", fakeFileName);
-                using FileStream fileStream = new(path, FileMode.Create);
-                entitiy.CopyTo(fileStream);
+
+                if (entitiy.FileName != null)
+                {
+                    string folder = "uploads/";
+                    folder += /*Guid.NewGuid().ToString()+"_"+*/ entitiy.FileName;
+                    string servesfolder = Path.Combine(_webHostEnvironment.WebRootPath, folder);
+                    using FileStream fileStream = new(servesfolder, FileMode.Create);
+                    entitiy.CopyTo(fileStream);
+                }
+
+                //string myUpload = Path.Combine(_webHostEnvironment.WebRootPath, "~/uploads", fileName);
+                //string fullPath = Path.Combine(myUpload, fileName);
+                //entitiy.CopyTo(new FileStream(fullPath, FileMode.Create));
+
 
             }
 

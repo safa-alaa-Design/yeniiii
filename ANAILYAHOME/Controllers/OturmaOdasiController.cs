@@ -34,6 +34,18 @@ namespace ANAILYAHOME.Controllers
 
         //upload
 
+
+        /// /////////////////////////////////////upload
+
+        public IActionResult uploadIndex()
+        {
+
+             List<FotoEntity> foto = _db.foto.Include(x => x.urun).ToList();
+            
+                return View(foto);
+            
+        }
+
         public IActionResult Upload(int urunId)
         {
 
@@ -57,23 +69,28 @@ namespace ANAILYAHOME.Controllers
             List<FotoEntity> fotoEntities = new();
             foreach (var entitiy in file)
             {
-                var fakeFileName = Path.GetRandomFileName();
+              
+
                 fotoEntities.Add(new FotoEntity
                 {
                     FileName = entitiy.FileName,
                     ContentType = entitiy.ContentType,
-                    StoredFileName = fakeFileName,
                     UrunId = urunId
                 });
-                var path = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", fakeFileName);
-                using FileStream fileStream = new(path, FileMode.Create);
-                entitiy.CopyTo(fileStream);
+                if (entitiy.FileName != null)
+                {
+                    string folder = "uploads/";
+                    folder += /*Guid.NewGuid().ToString()+"_"+*/ entitiy.FileName;
+                    string servesfolder = Path.Combine(_webHostEnvironment.WebRootPath, folder);
+                    using FileStream fileStream = new(servesfolder, FileMode.Create);
+                    entitiy.CopyTo(fileStream);
+                }
 
             }
 
             _db.AddRange(fotoEntities);
             _db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("uploadIndex");
         }
 
      
@@ -110,7 +127,7 @@ namespace ANAILYAHOME.Controllers
 
                 _db.urun.Add(p);
                 _db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("uploadIndex");
             }
             //GET
             public IActionResult Edit(int id)

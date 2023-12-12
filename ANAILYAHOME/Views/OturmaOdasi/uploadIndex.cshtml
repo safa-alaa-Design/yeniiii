@@ -1,17 +1,18 @@
-﻿@using ANAILYAHOME.models;
-@using ANAILYAHOME.entityes;
-@model IEnumerable<FotoEntity>
+﻿
 @{
     ViewData["Title"] = "uploadIndex";
     Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
 }
 
+@using ANAILYAHOME.models;
+@using ANAILYAHOME.entityes;
+@model IEnumerable<FotoEntity>
 
 <h1 style="margin-top:-33px;margin-bottom:20px" asp-route-urunId="urrunId">Fotografler</h1>
 
 <p>
     <a asp-action="Upload" class="btn btn-success">foto</a>
-    
+
 </p>
 <table class="table">
     <thead>
@@ -26,10 +27,10 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td><img src="~/uploads/@item.FileName" style="width:48px ;height:42px;" class="img-thumbnail" /></td>
+                <td><img src="~/uploads/@item.FileName" style="width:48px ;height:42px;" class="img-thumbnail"/></td>
                 <td><a href="/yatmaodasi/fotosil/@item.id" class="btn btn-danger">sil</a></td>
             </tr>
-           
+
         }
     </tbody>
 </table>

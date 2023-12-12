@@ -1,572 +1,376 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ANAILYAHOME.bundle.scp.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ANAILYAHOME.bundle.scp.css",
       "PackagePath": "staticwebassets\\ANAILYAHOME.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\Mobilya.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\Mobilya.css",
       "PackagePath": "staticwebassets\\css\\Mobilya.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\background.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\background.jpg",
       "PackagePath": "staticwebassets\\css\\img\\background.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\background3.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\background3.jpg",
       "PackagePath": "staticwebassets\\css\\img\\background3.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\background4.png",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\background4.png",
       "PackagePath": "staticwebassets\\css\\img\\background4.png"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\bg.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\bg.jpg",
       "PackagePath": "staticwebassets\\css\\img\\bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\Happy Sell2jpeg.jpeg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\Happy Sell2jpeg.jpeg",
       "PackagePath": "staticwebassets\\css\\img\\feachier\\Happy Sell2jpeg.jpeg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\Promotions.jpeg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\Promotions.jpeg",
       "PackagePath": "staticwebassets\\css\\img\\feachier\\Promotions.jpeg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\freeshop.jpeg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\freeshop.jpeg",
       "PackagePath": "staticwebassets\\css\\img\\feachier\\freeshop.jpeg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\istockphoto-1314458685-612x612.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\istockphoto-1314458685-612x612.jpg",
       "PackagePath": "staticwebassets\\css\\img\\feachier\\istockphoto-1314458685-612x612.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\onlineshop.jpeg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\onlineshop.jpeg",
       "PackagePath": "staticwebassets\\css\\img\\feachier\\onlineshop.jpeg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\support.png",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\feachier\\support.png",
       "PackagePath": "staticwebassets\\css\\img\\feachier\\support.png"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\logo.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\logo.jpg",
       "PackagePath": "staticwebassets\\css\\img\\logo.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\logoilya.png",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\logoilya.png",
       "PackagePath": "staticwebassets\\css\\img\\logoilya.png"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\new1.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\new1.jpg",
       "PackagePath": "staticwebassets\\css\\img\\new1.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\new2.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\new2.jpg",
       "PackagePath": "staticwebassets\\css\\img\\new2.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\new3.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\new3.jpg",
       "PackagePath": "staticwebassets\\css\\img\\new3.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p1.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p1.jpg",
       "PackagePath": "staticwebassets\\css\\img\\p1.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p2.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p2.jpg",
       "PackagePath": "staticwebassets\\css\\img\\p2.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p3.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p3.jpg",
       "PackagePath": "staticwebassets\\css\\img\\p3.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p4.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p4.jpg",
       "PackagePath": "staticwebassets\\css\\img\\p4.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p5.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p5.jpg",
       "PackagePath": "staticwebassets\\css\\img\\p5.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p6.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\p6.jpg",
       "PackagePath": "staticwebassets\\css\\img\\p6.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\tesla.png",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\img\\tesla.png",
       "PackagePath": "staticwebassets\\css\\img\\tesla.png"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\img\\foto.jpg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\img\\foto.jpg",
       "PackagePath": "staticwebassets\\img\\foto.jpg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\img\\indir.jpeg",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\img\\indir.jpeg",
       "PackagePath": "staticwebassets\\img\\indir.jpeg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\js\\Mobilya.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\js\\Mobilya.js",
       "PackagePath": "staticwebassets\\js\\Mobilya.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\js\\app.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\js\\app.js",
       "PackagePath": "staticwebassets\\js\\app.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\js\\creat.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\js\\creat.js",
       "PackagePath": "staticwebassets\\js\\creat.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\04cdn2lt.b0t",
-      "PackagePath": "staticwebassets\\uploads\\04cdn2lt.b0t"
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\50.png",
+      "PackagePath": "staticwebassets\\uploads\\50.png"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\0gfozpui.c41",
-      "PackagePath": "staticwebassets\\uploads\\0gfozpui.c41"
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\8327c3c8-4425-4f32-ba8e-57a667030eae_WhatsApp Image 2022-09-25 at 10.17.35 PM.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\8327c3c8-4425-4f32-ba8e-57a667030eae_WhatsApp Image 2022-09-25 at 10.17.35 PM.jpeg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\0m4odjth.vyc",
-      "PackagePath": "staticwebassets\\uploads\\0m4odjth.vyc"
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\WhatsApp Image 2022-09-25 at 10.17.35 PM.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\WhatsApp Image 2022-09-25 at 10.17.35 PM.jpeg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\11culiry.het",
-      "PackagePath": "staticwebassets\\uploads\\11culiry.het"
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\fotos0a3cf9d1-2c1e-4fb2-9fac-be9f06c76893_WhatsApp Image 2022-09-25 at 10.17.35 PM.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\fotos0a3cf9d1-2c1e-4fb2-9fac-be9f06c76893_WhatsApp Image 2022-09-25 at 10.17.35 PM.jpeg"
     },
     {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\14c3co2e.pus",
-      "PackagePath": "staticwebassets\\uploads\\14c3co2e.pus"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\1irufguq.3yz",
-      "PackagePath": "staticwebassets\\uploads\\1irufguq.3yz"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\1jrr1u01.40y",
-      "PackagePath": "staticwebassets\\uploads\\1jrr1u01.40y"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\1mwo4b2v.rj1",
-      "PackagePath": "staticwebassets\\uploads\\1mwo4b2v.rj1"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\1uvceeyw.ocq",
-      "PackagePath": "staticwebassets\\uploads\\1uvceeyw.ocq"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\2kc5gac1.ssd",
-      "PackagePath": "staticwebassets\\uploads\\2kc5gac1.ssd"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\35klwocw.5ns",
-      "PackagePath": "staticwebassets\\uploads\\35klwocw.5ns"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\3tuy3eqw.xqe",
-      "PackagePath": "staticwebassets\\uploads\\3tuy3eqw.xqe"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\afcs5sfk.0fc",
-      "PackagePath": "staticwebassets\\uploads\\afcs5sfk.0fc"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\aiked0dg.xur",
-      "PackagePath": "staticwebassets\\uploads\\aiked0dg.xur"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\b1aso2ez.0va",
-      "PackagePath": "staticwebassets\\uploads\\b1aso2ez.0va"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\cfpe4up3.aiz",
-      "PackagePath": "staticwebassets\\uploads\\cfpe4up3.aiz"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\d3fcrxv0.ay4",
-      "PackagePath": "staticwebassets\\uploads\\d3fcrxv0.ay4"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\dcxynjq1.iwc",
-      "PackagePath": "staticwebassets\\uploads\\dcxynjq1.iwc"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\dlwvkkc4.kl2",
-      "PackagePath": "staticwebassets\\uploads\\dlwvkkc4.kl2"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\exogfmjx.uzk",
-      "PackagePath": "staticwebassets\\uploads\\exogfmjx.uzk"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\fjegwzub.pox",
-      "PackagePath": "staticwebassets\\uploads\\fjegwzub.pox"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\fjoab3zv.gdp",
-      "PackagePath": "staticwebassets\\uploads\\fjoab3zv.gdp"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\fwfwmgm1.kuq",
-      "PackagePath": "staticwebassets\\uploads\\fwfwmgm1.kuq"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\g3hc0pxq.dku",
-      "PackagePath": "staticwebassets\\uploads\\g3hc0pxq.dku"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\gfuymges.piv",
-      "PackagePath": "staticwebassets\\uploads\\gfuymges.piv"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\gfzupy3f.yu2",
-      "PackagePath": "staticwebassets\\uploads\\gfzupy3f.yu2"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\ggyq5hen.nmx",
-      "PackagePath": "staticwebassets\\uploads\\ggyq5hen.nmx"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\jfnislba.tw0",
-      "PackagePath": "staticwebassets\\uploads\\jfnislba.tw0"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\jzfms0f4.ez3",
-      "PackagePath": "staticwebassets\\uploads\\jzfms0f4.ez3"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\k0rs5txw.exg",
-      "PackagePath": "staticwebassets\\uploads\\k0rs5txw.exg"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\l3m4cflj.gi4",
-      "PackagePath": "staticwebassets\\uploads\\l3m4cflj.gi4"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\lgx3mmjs.swd",
-      "PackagePath": "staticwebassets\\uploads\\lgx3mmjs.swd"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\lrtir5xi.yu5",
-      "PackagePath": "staticwebassets\\uploads\\lrtir5xi.yu5"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\mq3htyo0.asf",
-      "PackagePath": "staticwebassets\\uploads\\mq3htyo0.asf"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\mq3iloct.bs3",
-      "PackagePath": "staticwebassets\\uploads\\mq3iloct.bs3"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\nlv34vam.bhs",
-      "PackagePath": "staticwebassets\\uploads\\nlv34vam.bhs"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\nr4tmtyz.pe3",
-      "PackagePath": "staticwebassets\\uploads\\nr4tmtyz.pe3"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\ofi3dylx.5ae",
-      "PackagePath": "staticwebassets\\uploads\\ofi3dylx.5ae"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\omnk1uor.asd",
-      "PackagePath": "staticwebassets\\uploads\\omnk1uor.asd"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\paddb3ii.yhd",
-      "PackagePath": "staticwebassets\\uploads\\paddb3ii.yhd"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\rercbhjn.q5x",
-      "PackagePath": "staticwebassets\\uploads\\rercbhjn.q5x"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\rmqeago1.gde",
-      "PackagePath": "staticwebassets\\uploads\\rmqeago1.gde"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\rtiabeh0.uot",
-      "PackagePath": "staticwebassets\\uploads\\rtiabeh0.uot"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\syyqayom.niy",
-      "PackagePath": "staticwebassets\\uploads\\syyqayom.niy"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\t3idt4fk.gs1",
-      "PackagePath": "staticwebassets\\uploads\\t3idt4fk.gs1"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\tcdqrxkf.tsh",
-      "PackagePath": "staticwebassets\\uploads\\tcdqrxkf.tsh"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\v4lxm4cl.3jm",
-      "PackagePath": "staticwebassets\\uploads\\v4lxm4cl.3jm"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\vdeg45en.pgi",
-      "PackagePath": "staticwebassets\\uploads\\vdeg45en.pgi"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\vh1z0pk0.vsb",
-      "PackagePath": "staticwebassets\\uploads\\vh1z0pk0.vsb"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\w0t2a0fy.jvm",
-      "PackagePath": "staticwebassets\\uploads\\w0t2a0fy.jvm"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\wv3qrl5b.3cj",
-      "PackagePath": "staticwebassets\\uploads\\wv3qrl5b.3cj"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\yevsjkp4.oo3",
-      "PackagePath": "staticwebassets\\uploads\\yevsjkp4.oo3"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\z5bc411q.3e3",
-      "PackagePath": "staticwebassets\\uploads\\z5bc411q.3e3"
-    },
-    {
-      "Id": "C:\\Users\\Kullanıcı\\Source\\Repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\zo2htmh4.s2f",
-      "PackagePath": "staticwebassets\\uploads\\zo2htmh4.s2f"
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\indir.jpg",
+      "PackagePath": "staticwebassets\\uploads\\indir.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ANAILYAHOME.Microsoft.AspNetCore.StaticWebAssets.props",
