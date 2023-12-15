@@ -23,19 +23,41 @@ section {
 
 
 header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 100px;
-    background-color: #edecea;
-    padding: 13px 46px;
+    padding: 11px 4px;
 }
 
+#menu-icon {
+    display: initial;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+header .navbar {
+    position: absolute;
+    top: -600px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgb(0 0 0 /10%);
+    transition: 0.2s ease;
+    text-align: center;
+}
+
+.navbar a {
+    padding: 1.5rem;
+    display: block;
+}
+
+.navbar.active {
+    top: 100%
+}
+
+.navbar a:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
 .logo {
     font-size: 1.2rem;
     font-weight: 600;
@@ -74,13 +96,7 @@ header {
 
         .navbar a:hover {
             color: var(--main-color);
-        }
-
-#menu-icon {
-    font-size: 2rem;
-    cursor: pointer;
-    display: none;
-}
+        }*/*/
 
 .home {
     width: 100%;
@@ -1121,9 +1137,10 @@ ________urun bilgi___________*/
         display: inline;
         padding-left: 0;
     }
+}
 
     @media (max-width:768px) {
-        header {
+       /* header {
             padding: 11px 4px;
         }
 
@@ -1156,7 +1173,7 @@ ________urun bilgi___________*/
         .navbar a:hover {
             background-color: var(--main-color);
             color: #fff;
-        }
+        }*/
 
         #about .video {
             grid-template-columns: 1fr;
@@ -1213,4 +1230,4 @@ ________urun bilgi___________*/
             display: inline;
         }
     }
-}
+

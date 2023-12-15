@@ -1,18 +1,134 @@
 ﻿@using ANAILYAHOME.models;
 @using ANAILYAHOME.entityes;
 @model IEnumerable<FotoEntity>
+
 @{
     ViewData["Title"] = "uploadIndex";
     Layout = "~/Views/Shared/_LayoutAdmen.cshtml";
 }
 
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
 
-<h1 style="margin-top:-33px;margin-bottom:20px" asp-route-urunId="urrunId">Fotografler</h1>
+/* Full-width input fields */
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
 
-<p>
-    <a asp-action="Upload" class="btn btn-success">foto</a>
-    
-</p>
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 16px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 17%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+
+.container {
+  padding: 16px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+/* .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+  .cancelbtn {
+     width: 100%;
+  } */
+
+</style>
+
+<h2 style="position:absolute;top:70px">Yatma Odasi fotgrafler</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:100px;height:37px ;padding:8px 15px">Foto Ekle</button>
+
+<div id="id01" class="modal">
+    <form asp-action="uploadIndex" asp-route-urunId="@ViewBag.urunId" method="post" class="modal-content animate" enctype="multipart/form-data">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+        <br/>
+        <div class="container">
+            <input name="file" type="file" class="form-control" multiple />
+            <button type="submit">Upload</button>
+        </div>
+   </form>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+   
 <table class="table">
     <thead>
         <tr>
@@ -23,13 +139,17 @@
         </tr>
     </thead>
     <tbody>
+
         @foreach (var item in Model)
         {
+            
             <tr>
+               
                 <td><img src="~/uploads/@item.FileName" style="width:48px ;height:42px;" class="img-thumbnail" /></td>
+               
                 <td><a href="/yatmaodasi/fotosil/@item.id" class="btn btn-danger">sil</a></td>
             </tr>
-           
+            
         }
     </tbody>
 </table>

@@ -12,6 +12,8 @@ using Microsoft.AspNetCore.Identity;
 using ANAILYAHOME.models;
 using Microsoft.CodeAnalysis.CSharp;
 using System;
+using Microsoft.AspNetCore.Routing;
+using Microsoft.AspNetCore.Mvc.Routing;
 
 namespace ANAILYAHOME.Controllers
 {
@@ -41,22 +43,15 @@ namespace ANAILYAHOME.Controllers
 
         public IActionResult uploadIndex(int urunId)
         {
-           
-            List<FotoEntity> foto = _db.foto.Include(x => x.urun).ToList();
-            return View(foto);
-        }
-
-
-        public IActionResult Upload(int urunId)
-        {
-
             ViewBag.urunId = urunId;
-            return View();
+            List<FotoEntity> foto = _db.foto.Include(x => x.urun).ThenInclude(x => x.yatma).ToList();
+             return View(foto);
+       
+          
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public  IActionResult Upload(List<IFormFile> file, int urunId)
+        public  IActionResult uploadIndex(List<IFormFile> file, int urunId )
         {
 
             List<FotoEntity> fotoEntities = new();
@@ -80,16 +75,12 @@ namespace ANAILYAHOME.Controllers
                     entitiy.CopyTo(fileStream);
                 }
 
-                //string myUpload = Path.Combine(_webHostEnvironment.WebRootPath, "~/uploads", fileName);
-                //string fullPath = Path.Combine(myUpload, fileName);
-                //entitiy.CopyTo(new FileStream(fullPath, FileMode.Create));
-
-
+                
             }
 
             _db.AddRange(fotoEntities);
             _db.SaveChanges();
-            return RedirectToAction("uploadIndex");
+            return RedirectToAction("uploadIndex" , new {urunId = urunId });
         }
 
 

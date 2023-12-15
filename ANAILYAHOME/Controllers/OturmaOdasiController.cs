@@ -37,25 +37,20 @@ namespace ANAILYAHOME.Controllers
 
         /// /////////////////////////////////////upload
 
-        public IActionResult uploadIndex()
+        public IActionResult uploadIndex(int urunId)
         {
 
              List<FotoEntity> foto = _db.foto.Include(x => x.urun).ToList();
-            
+            ViewBag.urunId = urunId;
                 return View(foto);
             
         }
 
-        public IActionResult Upload(int urunId)
-        {
-
-            ViewBag.urunId = urunId;
-            return View();
-        }
+        
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upload(List<IFormFile> file, int urunId)
+        public IActionResult uploadIndex(List<IFormFile> file, int urunId)
         {
             //var fakeFileName = Path.GetRandomFileName();
             //    var entity = new FotoEntity
@@ -90,7 +85,7 @@ namespace ANAILYAHOME.Controllers
 
             _db.AddRange(fotoEntities);
             _db.SaveChanges();
-            return RedirectToAction("uploadIndex");
+            return RedirectToAction("uploadIndex", new {urunId = urunId});
         }
 
      

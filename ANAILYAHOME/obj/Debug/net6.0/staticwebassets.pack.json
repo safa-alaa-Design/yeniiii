@@ -353,12 +353,44 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\0887b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0887b.jpg"
+    },
+    {
       "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\50.png",
       "PackagePath": "staticwebassets\\uploads\\50.png"
     },
     {
       "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\8327c3c8-4425-4f32-ba8e-57a667030eae_WhatsApp Image 2022-09-25 at 10.17.35 PM.jpeg",
       "PackagePath": "staticwebassets\\uploads\\8327c3c8-4425-4f32-ba8e-57a667030eae_WhatsApp Image 2022-09-25 at 10.17.35 PM.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\Screenshot 2023-06-02 111611.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2023-06-02 111611.png"
+    },
+    {
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\Screenshot 2023-08-02 200533.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2023-08-02 200533.png"
+    },
+    {
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\Screenshot 2023-09-11 102353.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2023-09-11 102353.png"
+    },
+    {
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\Screenshot 2023-09-11 102611.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2023-09-11 102611.png"
+    },
+    {
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\Screenshot 2023-09-11 102626.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2023-09-11 102626.png"
+    },
+    {
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\Screenshot 2023-09-11 102648.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2023-09-11 102648.png"
+    },
+    {
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\Screenshot 2023-09-11 102711.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2023-09-11 102711.png"
     },
     {
       "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\WhatsApp Image 2022-09-25 at 10.17.35 PM.jpeg",
@@ -371,6 +403,10 @@
     {
       "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\indir.jpg",
       "PackagePath": "staticwebassets\\uploads\\indir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kullanıcı\\source\\repos\\Edit-foto-Getxx\\ANAILYAHOME\\wwwroot\\uploads\\الادبيى ووردبريس.html",
+      "PackagePath": "staticwebassets\\uploads\\الادبيى ووردبريس.html"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ANAILYAHOME.Microsoft.AspNetCore.StaticWebAssets.props",
