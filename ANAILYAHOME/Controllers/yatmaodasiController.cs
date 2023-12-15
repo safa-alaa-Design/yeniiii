@@ -33,7 +33,7 @@ namespace ANAILYAHOME.Controllers
         {
             List<YatmaOdasi> urun = _db.yatma.Include(c => c.urun).ToList();
 
-
+             
             return View(urun);
         }
 
@@ -83,16 +83,16 @@ namespace ANAILYAHOME.Controllers
             return RedirectToAction("uploadIndex" , new {urunId = urunId });
         }
 
-
-
-        public ActionResult fotosil(int id)
+      
+        public ActionResult fotosil(int id ,int urunId )
         {
-            var sl = _db.foto.Find(id);
+           
+            var sl=_db.foto.Find(id);
             _db.foto.Remove(sl);
             _db.SaveChanges();
-            return RedirectToAction("uploadIndex");
+            return RedirectToAction("uploadIndex", new { urunId = urunId });
 
-
+           
         }
 
         /// ////////////////////////////////////////

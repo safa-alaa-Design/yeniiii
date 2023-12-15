@@ -22,9 +22,7 @@ section {
 }
 
 
-header {
-    padding: 11px 4px;
-}
+
 
 #menu-icon {
     display: initial;
@@ -34,30 +32,51 @@ header {
 
 header .navbar {
     position: absolute;
-    top: -600px;
-    left: 0;
-    right: 0;
+    top: 0;
+    right: -600px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #fff;
     box-shadow: 0 4px 4px rgb(0 0 0 /10%);
     transition: 0.2s ease;
     text-align: center;
+    width: 250px;
+    padding-top: 30px;
+    margin-left: 20px;
+   
 }
 
 .navbar a {
     padding: 1.5rem;
     display: block;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lavender;
+    color: black;
 }
 
+
 .navbar.active {
-    top: 100%
+    right: 0%;
 }
 
 .navbar a:hover {
     background-color: var(--main-color);
     color: #fff;
 }
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    background-color: #edecea;
+    padding: 13px 46px;
+}
+
 .logo {
     font-size: 1.2rem;
     font-weight: 600;
@@ -87,7 +106,7 @@ header .navbar {
     display: flex;
 }
 
-    .navbar a {
+    /*.navbar a {
         font-size: 1rem;
         padding: 10px 20px;
         font-weight: 500;
@@ -96,7 +115,7 @@ header .navbar {
 
         .navbar a:hover {
             color: var(--main-color);
-        }*/*/
+        }*/
 
 .home {
     width: 100%;
@@ -262,7 +281,7 @@ header .navbar {
     }
 
 
-/*select{
+select{
    
     color: #ecdd76;
     width: 100%;
@@ -271,13 +290,13 @@ header .navbar {
     outline: none;
     border: 1px solid #e1e1e1;
 }
-*/
+
 /*select {
     box-shadow: 0px 4px 4px 0px;
     margin-bottom: 5px;
     border-radius: 8px 2px;
     
-}*/
+}
 
 
 .input {

@@ -37,12 +37,19 @@ namespace ANAILYAHOME.Controllers
 
         /// /////////////////////////////////////upload
 
-        public IActionResult uploadIndex(int urunId)
+        public IActionResult uploadIndex( FotoEntity item, int urunId)
         {
+            if (item.UrunId == urunId)
+            {
 
-             List<FotoEntity> foto = _db.foto.Include(x => x.urun).ToList();
-            ViewBag.urunId = urunId;
+                List<FotoEntity> foto = _db.foto.Include(x => x.urun).ToList();
+                ViewBag.urunId = urunId;
                 return View(foto);
+            }
+            else 
+            {
+                return View(item);
+            }
             
         }
 
@@ -88,7 +95,19 @@ namespace ANAILYAHOME.Controllers
             return RedirectToAction("uploadIndex", new {urunId = urunId});
         }
 
-     
+        public ActionResult fotosil(int id ,int urunId)
+        {
+            var sl =_db.foto.Find(id);
+            _db.foto.Remove(sl);
+            _db.SaveChanges();
+            return RedirectToAction("uploadIndex", new { urunId = urunId });
+
+
+        }
+      
+        /// /////////////////////////////////////uplod
+   
+
         public IActionResult New()
         {
             urunEntity urun = new urunEntity();

@@ -111,7 +111,7 @@
 </style>
 
 
-<h2 style="position:absolute;top:70px">Oturma Odasi fotgrafler</h2>
+<h2 style="position:absolute;top:70px">Oturma Odasi fotograflar</h2>
 <button onclick="document.getElementById('id01').style.display='block'" style="width:100px;height:37px ;padding:8px 15px">Foto Ekle</button>
 
 <div id="id01" class="modal">
@@ -156,11 +156,15 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td><img src="~/uploads/@item.FileName" style="width:48px ;height:42px;" class="img-thumbnail"/></td>
-                <td><a href="/yatmaodasi/fotosil/@item.id" class="btn btn-danger">sil</a></td>
-            </tr>
 
+            <tr>
+
+                <td><img src="~/uploads/@item.FileName" style="width:48px ;height:42px;" class="img-thumbnail" /></td>
+
+                <td><a asp-action="fotosil" asp-controller="OturmaOdasi" asp-route-id="@item.id" asp-route-urunId="@item.urun.id" class="btn btn-danger">sil</a></td>
+                
+            </tr>
+            
         }
     </tbody>
 </table>
