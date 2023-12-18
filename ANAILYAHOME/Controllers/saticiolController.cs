@@ -3,9 +3,18 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client.Platforms.Features.DesktopOs.Kerberos;
 using System.Net;
 using System.Net.Mail;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 namespace ANAILYAHOME.Controllers
 {
+    public class ddf : IEmailSender
+    {
+        public Task SendEmailAsync(string email, string subject, string htmlMessage)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
     public class saticiolController : Controller
     {
         [HttpGet]
@@ -16,9 +25,9 @@ namespace ANAILYAHOME.Controllers
         [HttpPost]
         public IActionResult sendEmail(saticiol.saticiol model)
         {
-            MailMessage mail = new MailMessage(model.email , "safaalhassn50000@gmail.com");
-            //mail.From = new MailAddress(model.email);
-            //mail.To.Add(new MailAddress("safaalhassn@gmail.com"));
+            MailMessage mail = new MailMessage();
+            mail.From = new MailAddress(model.email);
+            mail.To.Add(new MailAddress("safaalhassn@gmail.com"));
             mail.Subject = "hello";
             mail.IsBodyHtml = true;
             mail.Priority = MailPriority.High;
@@ -37,9 +46,9 @@ namespace ANAILYAHOME.Controllers
 
             SmtpClient SmtpClient = new SmtpClient();
             
-                SmtpClient.Port = 587;
+                //SmtpClient.Port = 587;
                 SmtpClient.Host = "smtp.gmail.com";
-                SmtpClient.EnableSsl = true;
+                //SmtpClient.EnableSsl = true;
                 NetworkCredential Credentials = new NetworkCredential("safaalhassn50000@gmail.com", "QqBbSs1234567");
                 SmtpClient.UseDefaultCredentials = true;
                  SmtpClient.Credentials = Credentials;

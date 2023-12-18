@@ -8,7 +8,7 @@ namespace ANAILYAHOME.entityes
     {
        public const string SaticiId = "SaticiId";
        public const string UserId = "UserId";
-
+        public const string Kategoriler = "Kategoriler";
 
     }
 }

@@ -28,29 +28,22 @@
             <a href="#" class="logo"> İLYA <span>HOME</span></a>
         </div>
         <div class="bx bx-menu" id="menu-icon"></div>
-        <ul class="navbar">
-            <partial name="_LoginPartial">
+        <ul class="navbar" id="nav">
+            <partial id="login" name="_LoginPartial">
             <li><a asp-controller="Home" asp-action="Index">Home</a></li>
             <li><a href="#shop">shop</a></li>
             <li><a asp-controller="about" asp-action="about">About</a></li>
-            @if (SignInManager.IsSignedIn(User))
+          @if (SignInManager.IsSignedIn(User))
          {
-      
-            @if (User.IsInRole("ADMIN"))
-           {
+
+           @if (User.IsInRole("ADMIN") || User.IsInRole("SATICI"))
+          {
             <li class="nav-item">
                         <a id="admin" class="nav-link text-dark" asp-controller="yatmaodasi" asp-action="yatmaodasi" title="Manage">Admin Panel</a>
             </li>
-            }
+          }
          
-
-                @if ( User.IsInRole("SATICI"))
-                {
-                    <li class="nav-item">
-                        <a id="admin" class="nav-link text-dark" asp-controller="yatmaodasi" asp-action="yatmaodasi" title="Manage">Admin Panel</a>
-                    </li>
-                }
-            }
+         }
     
             <li><a href="#new"><i class='bx bx-heart'></i></a></li>
             <li><a  asp-controller="sepet" asp-action="sepet"><i class='bx bx-shopping-bag'></i></a></li>
@@ -95,9 +88,6 @@
 
 </body>
 </html>
-
-
-
 
 
 

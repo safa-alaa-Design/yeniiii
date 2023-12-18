@@ -174,7 +174,17 @@ namespace ANAILYAHOME.Areas.Identity.Pages.Account
             var id = await base.GenerateClaimsAsync(user);
             var appUser = base.UserManager.Users.Include(x => x.Admenbanal).ThenInclude(x => x.Listofurun).FirstOrDefault(x => x.Id == user.Id);
 
-            id.AddClaim(new Claim(ClaimTypesadmin.SaticiId, appUser.Admenbanal.id.ToString()));
+            if (appUser.Admenbanal != null)
+            {
+                id.AddClaim(new Claim(ClaimTypesadmin.SaticiId, appUser.Admenbanal?.id.ToString() ?? "0"));
+                if (appUser.Admenbanal.BayiKategorilist?.Count > 0)
+                {
+                    var list = appUser.Admenbanal.BayiKategorilist.Select(i => ((int)i.katagore).ToString()).ToList();
+                    id.AddClaim(new Claim(ClaimTypesadmin.Kategoriler, string.Join("&&", list)));
+                }
+            }
+
+
 
             return id;
 

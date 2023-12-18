@@ -14,6 +14,7 @@ using Microsoft.CodeAnalysis.CSharp;
 using System;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Mvc.Routing;
+using ANAILYAHOME.Services;
 
 namespace ANAILYAHOME.Controllers
 {
@@ -44,7 +45,7 @@ namespace ANAILYAHOME.Controllers
         public IActionResult uploadIndex(int urunId)
         {
             ViewBag.urunId = urunId;
-            List<FotoEntity> foto = _db.foto.Include(x => x.urun).ThenInclude(x => x.yatma).ToList();
+            List<FotoEntity> foto = _db.foto.Include(x => x.urun).Where(d => d.UrunId ==urunId).ToList();
              return View(foto);
        
           
@@ -110,8 +111,9 @@ namespace ANAILYAHOME.Controllers
         [HttpPost]
         public IActionResult Create(urunEntity p)
         {
-            var saticiid = Convert.ToInt32(User.Claims.Where(c => c.Type == ClaimTypesadmin.SaticiId).Select(c => c.Value).SingleOrDefault());
-            p.AdmenbanalId = 1;
+            //var saticiid = Convert.ToInt32(User.Claims.Where(c => c.Type == ClaimTypesadmin.SaticiId).Select(c => c.Value).SingleOrDefault());
+            //p.AdmenbanalId = 1;
+            p.AdmenbanalId = UserServices.GetSaticiId(User);
 
             p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
             p.Listoffiyat.RemoveAll(n => n.IsHiddin == true);
@@ -157,7 +159,7 @@ namespace ANAILYAHOME.Controllers
             //entity.ListofBuyut = null;
             //entity.Listoffoto = null;
             //entity.Listoffiyat = null;
-            entity.AdmenbanalId = 1;
+            entity.AdmenbanalId = UserServices.GetSaticiId(User);
 
 
 

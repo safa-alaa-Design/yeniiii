@@ -2,6 +2,7 @@
 using ANAILYAHOME.Migrations;
 using ANAILYAHOME.models;
 using ANAILYAHOME.Models;
+using ANAILYAHOME.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -39,18 +40,11 @@ namespace ANAILYAHOME.Controllers
 
         public IActionResult uploadIndex( FotoEntity item, int urunId)
         {
-            if (item.UrunId == urunId)
-            {
 
-                List<FotoEntity> foto = _db.foto.Include(x => x.urun).ToList();
+                List<FotoEntity> foto = _db.foto.Include(x => x.urun).Where(d => d.UrunId == urunId).ToList();
                 ViewBag.urunId = urunId;
                 return View(foto);
-            }
-            else 
-            {
-                return View(item);
-            }
-            
+          
         }
 
         
@@ -122,10 +116,9 @@ namespace ANAILYAHOME.Controllers
       
             public IActionResult New(urunEntity p)
             {
-                var saticiid = Convert.ToInt32(User.Claims.Where(c => c.Type == ClaimTypesadmin.SaticiId).Select(c => c.Value).SingleOrDefault());
-                p.AdmenbanalId = 1;
+            p.AdmenbanalId = UserServices.GetSaticiId(User);
 
-                p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
+            p.ListofBuyut.RemoveAll(n => n.IsDeleted == true);
                 p.Listoffiyat.RemoveAll(n => n.IsHiddin == true);
 
                 p.katagore = katagore.OturmaOdası;
@@ -141,7 +134,7 @@ namespace ANAILYAHOME.Controllers
 
                 _db.urun.Add(p);
                 _db.SaveChanges();
-                return RedirectToAction("uploadIndex");
+                return RedirectToAction("Index");
             }
             //GET
             public IActionResult Edit(int id)
@@ -167,7 +160,7 @@ namespace ANAILYAHOME.Controllers
             //entity.ListofBuyut = null;
             //entity.Listoffoto = null;
             //entity.Listoffiyat = null;
-            entity.AdmenbanalId = 1;
+            entity.AdmenbanalId = UserServices.GetSaticiId(User);
 
 
 

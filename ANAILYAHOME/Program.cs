@@ -7,6 +7,8 @@ using ANAILYAHOME.Repository;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using ANAILYAHOME.Areas.Identity.Pages.Account;
+using ANAILYAHOME.Services;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -117,6 +119,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 //);
 
 
+//builder.Services.AddScoped<IEmailSender, EmailSender>;
 builder.Services.AddScoped<IUserClaimsPrincipalFactory<AplicationUser>, MyUserClaimsPrincipalFactory>();
 builder.Services.AddRazorPages();
 
