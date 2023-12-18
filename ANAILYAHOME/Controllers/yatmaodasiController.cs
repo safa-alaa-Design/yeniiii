@@ -44,7 +44,7 @@ namespace ANAILYAHOME.Controllers
         public IActionResult uploadIndex(int urunId)
         {
             ViewBag.urunId = urunId;
-            List<FotoEntity> foto = _db.foto.Include(x => x.urun).ThenInclude(x => x.yatma).ToList();
+            List<FotoEntity> foto = _db.foto.Include(x => x.urun).Where(d => d.UrunId ==urunId).ToList();
              return View(foto);
        
           

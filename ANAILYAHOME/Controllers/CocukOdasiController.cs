@@ -34,18 +34,26 @@ namespace ANAILYAHOME.Controllers
 
         //upload
 
-        public IActionResult Upload(int urunId)
+
+        /// /////////////////////////////////////upload
+
+        public IActionResult uploadIndex(FotoEntity item, int urunId)
         {
 
+            List<FotoEntity> foto = _db.foto.Include(x => x.urun).Where(d => d.UrunId == urunId).ToList();
             ViewBag.urunId = urunId;
-            return View();
+            return View(foto);
+
+
         }
+
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upload(List<IFormFile> file, int urunId)
+        public IActionResult uploadIndex(List<IFormFile> file, int urunId)
         {
-            //var fakeFileName = Path.GetRandomFileName();
+            
             //    var entity = new FotoEntity
             //    {
             //        UrunId = urunId,
@@ -57,23 +65,41 @@ namespace ANAILYAHOME.Controllers
             List<FotoEntity> fotoEntities = new();
             foreach (var entitiy in file)
             {
-                var fakeFileName = Path.GetRandomFileName();
+
+
                 fotoEntities.Add(new FotoEntity
                 {
                     FileName = entitiy.FileName,
                     ContentType = entitiy.ContentType,
                     UrunId = urunId
                 });
-                var path = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", fakeFileName);
-                using FileStream fileStream = new(path, FileMode.Create);
-                entitiy.CopyTo(fileStream);
+                if (entitiy.FileName != null)
+                {
+                    string folder = "uploads/";
+                    folder += /*Guid.NewGuid().ToString()+"_"+*/ entitiy.FileName;
+                    string servesfolder = Path.Combine(_webHostEnvironment.WebRootPath, folder);
+                    using FileStream fileStream = new(servesfolder, FileMode.Create);
+                    entitiy.CopyTo(fileStream);
+                }
 
             }
 
             _db.AddRange(fotoEntities);
             _db.SaveChanges();
-            return RedirectToAction("cocukodasi");
+            return RedirectToAction("uploadIndex", new { urunId = urunId });
         }
+
+        public ActionResult fotosil(int id, int urunId)
+        {
+            var sl = _db.foto.Find(id);
+            _db.foto.Remove(sl);
+            _db.SaveChanges();
+            return RedirectToAction("uploadIndex", new { urunId = urunId });
+
+
+        }
+
+        /// /////////////////////////////////////uplod
 
 
         public IActionResult Create()

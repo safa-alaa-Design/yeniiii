@@ -28,8 +28,8 @@
             <a href="#" class="logo"> İLYA <span>HOME</span></a>
         </div>
         <div class="bx bx-menu" id="menu-icon"></div>
-        <ul class="navbar">
-            <partial name="_LoginPartial">
+        <ul class="navbar" id="nav">
+            <partial id="login" name="_LoginPartial">
             <li><a asp-controller="Home" asp-action="Index">Home</a></li>
             <li><a href="#shop">shop</a></li>
             <li><a asp-controller="about" asp-action="about">About</a></li>
@@ -95,9 +95,6 @@
 
 </body>
 </html>
-
-
-
 
 
 

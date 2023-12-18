@@ -46,7 +46,9 @@ header .navbar {
     margin-left: 20px;
    
 }
-
+.navbar #login{
+    border:none;
+}
 .navbar a {
     padding: 1.5rem;
     display: block;

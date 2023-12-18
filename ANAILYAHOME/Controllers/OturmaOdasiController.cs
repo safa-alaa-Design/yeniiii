@@ -39,18 +39,11 @@ namespace ANAILYAHOME.Controllers
 
         public IActionResult uploadIndex( FotoEntity item, int urunId)
         {
-            if (item.UrunId == urunId)
-            {
 
-                List<FotoEntity> foto = _db.foto.Include(x => x.urun).ToList();
+                List<FotoEntity> foto = _db.foto.Include(x => x.urun).Where(d => d.UrunId == urunId).ToList();
                 ViewBag.urunId = urunId;
                 return View(foto);
-            }
-            else 
-            {
-                return View(item);
-            }
-            
+          
         }
 
         

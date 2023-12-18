@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ANAILYAHOME")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3edf7092aaef32cf2703f513f338297a0ebda73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08859e2a645ca44ac1b4bf19e152de6264df3d1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ANAILYAHOME")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ANAILYAHOME")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
