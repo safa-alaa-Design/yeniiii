@@ -119,7 +119,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 //);
 
 
-//builder.Services.AddScoped<IEmailSender, EmailSender>;
+builder.Services.AddScoped<IEmailSender, EmailSender>();
 builder.Services.AddScoped<IUserClaimsPrincipalFactory<AplicationUser>, MyUserClaimsPrincipalFactory>();
 builder.Services.AddRazorPages();
 
